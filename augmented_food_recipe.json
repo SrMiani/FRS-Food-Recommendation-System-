@@ -1,0 +1,2566 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Margherita Pizza",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "1 pizza dough ball (about 260g)",
+            "2 tablespoons tomato sauce",
+            "1 cup shredded mozzarella cheese",
+            "6-8 fresh basil leaves",
+            "1 tablespoon olive oil",
+            "pinch of salt",
+            "optional: grated parmesan"
+        ],
+        "directions": [
+            "Preheat oven to 250\u00b0C (482\u00b0F) with a baking stone if available.",
+            "Roll out dough to a 12-inch circle on a floured surface.",
+            "Spread tomato sauce evenly over dough, leaving a 1/2-inch border.",
+            "Scatter mozzarella cheese over sauce.",
+            "Bake on the stone for 10-12 minutes until crust is crisp and cheese melts.",
+            "Finish with basil leaves, drizzle with olive oil, and season with salt and optional parmesan.",
+            "Slice and serve immediately."
+        ],
+        "image_description": "La pizza Margherita presenta una base dorada y crujiente con marcas de carbonizaci\u00f3n en los bordes, cubierta con salsa de tomate roja y queso derretido. Hojas frescas de albahaca verde adornan la superficie, distribuidas en forma decorativa. Est\u00e1 cortada en porciones y servida en una tabla de madera."
+    },
+    {
+        "id": 2,
+        "name": "Chicken Tikka Masala",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "25 mins",
+        "cook_time": "40 mins",
+        "total_time": "1 hour 5 mins",
+        "ingredients": [
+            "500g boneless chicken thighs, cubed",
+            "1 cup yogurt",
+            "2 tablespoons lemon juice",
+            "2 teaspoons garam masala",
+            "1 teaspoon ground cumin",
+            "1 teaspoon ground coriander",
+            "1 onion, minced",
+            "2 cloves garlic, minced",
+            "1 tablespoon grated ginger",
+            "1 can (400g) crushed tomatoes",
+            "1 cup heavy cream or coconut cream",
+            "2 tablespoons oil",
+            "Salt to taste",
+            "Fresh cilantro for garnish"
+        ],
+        "directions": [
+            "Marinate chicken in yogurt, lemon juice, garam masala, cumin, coriander, and a pinch of salt for at least 30 minutes.",
+            "In a large pan, heat oil and saut\u00e9 onion until translucent.",
+            "Add garlic and ginger; cook 1 minute until fragrant.",
+            "Add marinated chicken; cook until browned on all sides.",
+            "Stir in crushed tomatoes and simmer 15 minutes.",
+            "Reduce heat and add cream; simmer 5-10 minutes until sauce thickens.",
+            "Garnish with cilantro and serve with rice or naan."
+        ],
+        "image_description": "La imagen muestra un delicioso plato de Chicken Tikka Masala, presentado en un taz\u00f3n de cobre con asas doradas. El pollo, de color naranja intenso y con marcas de parrilla oscuras, est\u00e1 sumergido en una rica salsa cremosa de color rojo-anaranjado y decorado con hojas frescas de cilantro. Acompa\u00f1a al plato arroz blanco en un taz\u00f3n peque\u00f1o y dos piezas de naan tostado, ligeramente dorado y espolvoreado con hierbas frescas."
+    },
+    {
+        "id": 3,
+        "name": "Vegetable Stir-Fry with Tofu",
+        "cuisine": "Chinese",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "12 mins",
+        "total_time": "27 mins",
+        "ingredients": [
+            "200g firm tofu, cubed",
+            "1 tablespoon soy sauce",
+            "1 tablespoon cornstarch",
+            "2 tablespoons vegetable oil",
+            "1 cup broccoli florets",
+            "1 red bell pepper, sliced",
+            "1 carrot, julienned",
+            "1 cup snap peas",
+            "2 cloves garlic, minced",
+            "1 tablespoon rice vinegar",
+            "1 tablespoon hoisin sauce",
+            "1 teaspoon sesame oil"
+        ],
+        "directions": [
+            "Toss tofu with soy sauce and cornstarch.",
+            "Heat oil in a wok or large skillet over high heat.",
+            "Fry tofu until golden; remove and set aside.",
+            "Add garlic and vegetables; stir-fry 3-4 minutes until crisp-tender.",
+            "Return tofu to pan; add rice vinegar, hoisin sauce, and sesame oil.",
+            "Cook 1-2 minutes until coated; serve with steamed rice."
+        ],
+        "image_description": "El plato luce una mezcla colorida de br\u00f3coli, zanahorias y vainas salteadas con tofu dorado, todo cubierto en una salsa marr\u00f3n brillante. Se presenta en un taz\u00f3n blanco, acompa\u00f1ado de arroz blanco en un taz\u00f3n m\u00e1s peque\u00f1o y palillos chinos a un lado."
+    },
+    {
+        "id": 4,
+        "name": "Greek Giouvertsa Salad with Lemon-Oregano Dressing",
+        "cuisine": "Greek",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "2 cups chopped romaine",
+            "1 cucumber, diced",
+            "1 cup cherry tomatoes, halved",
+            "1/2 red onion, thinly sliced",
+            "1/2 cup Kalamata olives",
+            "1/2 cup feta cheese, crumbled",
+            "2 tablespoons olive oil",
+            "1 tablespoon lemon juice",
+            "1 teaspoon dried oregano",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "Toss romaine, cucumber, tomatoes, onion, olives, and feta in a bowl.",
+            "Whisk olive oil, lemon juice, oregano, salt, and pepper to make dressing.",
+            "Pour dressing over the salad and toss to combine.",
+            "Serve immediately."
+        ],
+        "image_description": "La imagen muestra una ensalada griega en un taz\u00f3n blanco, con lechuga, tomates cherry, pepino, cebolla roja, aceitunas Kalamata y queso feta. Junto al taz\u00f3n hay un taz\u00f3n peque\u00f1o con aderezo y un lim\u00f3n cortado."
+    },
+    {
+        "id": 5,
+        "name": "Spaghetti Aglio e Olio",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "200g spaghetti",
+            "4 cloves garlic, thinly sliced",
+            "1/2 teaspoon red pepper flakes",
+            "1/4 cup olive oil",
+            "Fresh parsley, chopped",
+            "Salt to taste",
+            "Grated parmesan to serve"
+        ],
+        "directions": [
+            "Cook spaghetti in salted water until al dente; reserve 1/2 cup pasta water.",
+            "Heat olive oil in a pan; add garlic and red pepper flakes, cook until fragrant and lightly golden.",
+            "Toss pasta with garlic oil, adding reserve water as needed.",
+            "Season, mix in parsley, and serve with parmesan."
+        ],
+        "image_description": "La imagen muestra un plato de Spaghetti Aglio e Olio en un taz\u00f3n blanco, con los espaguetis amarillos brillantes y cubiertos con perejil picado, queso rallado y dientes de ajo caramelizados. El plato est\u00e1 decorado con una presentaci\u00f3n en espiral y est\u00e1 acompa\u00f1ado de un tenedor a un lado. Alrededor del taz\u00f3n principal, hay otros elementos como un cuenco con hojuelas de chile rojo y una botella de aceite de oliva en el fondo."
+    },
+    {
+        "id": 6,
+        "name": "Distance-Glazed Salmon with Dill",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "12 mins",
+        "total_time": "22 mins",
+        "ingredients": [
+            "2 salmon fillets",
+            "2 tablespoons honey",
+            "1 tablespoon soy sauce",
+            "1 tablespoon Dijon mustard",
+            "1 tablespoon fresh dill, chopped",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "Preheat oven to 200\u00b0C (400\u00b0F).",
+            "Mix honey, soy sauce, mustard, and dill.",
+            "Season salmon with salt and pepper; brush with glaze.",
+            "Bake 10-12 minutes until flaky; drizzle remaining glaze over and serve."
+        ],
+        "image_description": "El salm\u00f3n aparece glaseado con una salsa oscura y brillante, adornado con hierbas frescas como eneldo y granos de mostaza. Est\u00e1 cortado en porciones individuales y presentado en una tabla de madera junto a rodajas de lim\u00f3n."
+    },
+    {
+        "id": 7,
+        "name": "Tomato Basil Soup",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "25 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "1 tablespoon olive oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "2 cans (400g each) crushed tomatoes",
+            "1 cup vegetable broth",
+            "1/2 cup cream or coconut milk",
+            "Fresh basil, torn",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic in olive oil until translucent.",
+            "Add crushed tomatoes and broth; simmer 15 minutes.",
+            "Blend until smooth or leave chunky based on preference.",
+            "Stir in cream and basil; season to taste and serve."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n de Tomato Basil Soup con un vibrante color rojo-anaranjado y una textura suave. Est\u00e1 decorado con hojas de albahaca fresca en el centro y espolvoreado con hierbas y especias alrededor. El taz\u00f3n es de cer\u00e1mica con bordes marrones y est\u00e1 rodeado de ingredientes frescos como tomates, albahaca, ajo y aceite de oliva."
+    },
+    {
+        "id": 8,
+        "name": "Pad Thai",
+        "cuisine": "Thai",
+        "servings": 2,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "150g rice noodles",
+            "2 tablespoons tamarind paste",
+            "2 tablespoons fish sauce",
+            "1 tablespoon palm sugar or brown sugar",
+            "2 eggs",
+            "200g shrimp or chicken",
+            "1 cup bean sprouts",
+            "2 cloves garlic, minced",
+            "1 lime, cut into wedges",
+            "1/4 cup roasted peanuts, chopped",
+            "1 tablespoon oil",
+            "Chili flakes (optional)"
+        ],
+        "directions": [
+            "Prepare noodles according to package; drain and set aside.",
+            "Mix tamarind paste, fish sauce, and sugar to make sauce.",
+            "Saut\u00e9 garlic in oil; add shrimp or chicken and cook through.",
+            "Push meat aside, scramble eggs in the pan, then mix with noodles.",
+            "Add sauce and bean sprouts; toss quickly.",
+            "Garnish with peanuts, lime wedges, and chili flakes if desired."
+        ],
+        "image_description": "El plato de Pad Thai presenta fideos de arroz dorados y brillantes mezclados con gambas cocidas, trozos de huevo revuelto y verduras como cebolletas y brotes de soja. Est\u00e1 decorado con gambas enteras cocidas y una rodaja de lima en un lado. La presentaci\u00f3n es apetitosa y colorida, con ingredientes adicionales alrededor del plato."
+    },
+    {
+        "id": 9,
+        "name": "Chickpea Falafel with Tahini",
+        "cuisine": "Middle Eastern",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "2 cups cooked chickpeas",
+            "1 small onion, chopped",
+            "2 cloves garlic",
+            "1/4 cup fresh parsley",
+            "2 tablespoons flour",
+            "1 teaspoon cumin",
+            "1/2 teaspoon coriander",
+            "Salt and pepper",
+            "Oil for frying",
+            "Tahini sauce: 1/4 cup tahini, lemon juice, water"
+        ],
+        "directions": [
+            "Pulse chickpeas, onion, garlic, parsley, flour, and spices until coarse.",
+            "Form into small patties or balls.",
+            "Fry in hot oil until golden and crisp.",
+            "Whisk tahini with lemon juice and water to desired consistency.",
+            "Serve falafel with tahini sauce."
+        ],
+        "image_description": "La imagen muestra un plato de \"Chichpea Falafel\" dorado y crujiente, acompa\u00f1ado de cebolla cruda, lim\u00f3n y perejil. El plato principal est\u00e1 rodeado de tazones con ingredientes como garbanzos, salsa tahini y especias, creando una presentaci\u00f3n visual atractiva y apetitosa."
+    },
+    {
+        "id": 10,
+        "name": "Beef Tacos with Salsa Verde",
+        "cuisine": "Mexican",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "400g ground beef",
+            "1 packet taco seasoning",
+            "8 corn tortillas",
+            "1 cup salsa verde",
+            "Shredded lettuce",
+            "Chopped tomatoes",
+            "Grated cheddar or Mexican cheese",
+            "Sour cream (optional)"
+        ],
+        "directions": [
+            "Cook beef with taco seasoning until browned.",
+            "Warm tortillas in a dry skillet.",
+            "Fill tortillas with beef, lettuce, tomatoes, and cheese.",
+            "Top with salsa verde and sour cream if desired."
+        ],
+        "image_description": "Cuatro tacos de carne molida est\u00e1n dispuestos en una bandeja, con tortillas amarillentas ligeramente tostadas y rellenos de carne condimentada, lechuga, queso rallado, tomate picado, salsa verde y crema. Alrededor de la bandeja hay cuencos con ingredientes adicionales como queso rallado, salsa roja y crema, junto con limas y pimientos verdes."
+    },
+    {
+        "id": 11,
+        "name": "Pan-Seared Ribeye Steak",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "5 mins",
+        "cook_time": "10 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "2 ribeye steaks (1 inch thick)",
+            "Salt and pepper",
+            "2 tablespoons butter",
+            "2 cloves garlic, smashed",
+            "Fresh thyme sprigs"
+        ],
+        "directions": [
+            "Season steaks with salt and pepper.",
+            "Sear in a hot pan with butter until desired doneness (about 4-5 minutes per side for medium-rare).",
+            "Add garlic and thyme during the last minute, spooning butter over steaks.",
+            "Rest 5 minutes before serving."
+        ],
+        "image_description": "La imagen muestra un filete de ribeye a la parrilla, servido en una sart\u00e9n de hierro fundido oscura, acompa\u00f1ado de tres cubos de mantequilla derretida y adornado con ramitas de tomillo fresco. El filete, cortado en forma de hueso de perro, presenta una corteza dorada y est\u00e1 cocido a t\u00e9rmino medio, con un interior rosado visible en las incisiones realizadas en la superficie. La presentaci\u00f3n se completa con ingredientes y especias dispuestos alrededor de la sart\u00e9n, como sal, pimienta y aceite de oliva."
+    },
+    {
+        "id": 12,
+        "name": "Lentil Dal with Cumin and Turmeric",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "25 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "1 cup red lentils",
+            "1 small onion, chopped",
+            "2 cloves garlic, minced",
+            "1 teaspoon ground cumin",
+            "1/2 teaspoon turmeric",
+            "1 teaspoon salt",
+            "2 cups water",
+            "1 tablespoon oil",
+            "Fresh cilantro for garnish"
+        ],
+        "directions": [
+            "Rinse lentils until water runs clear.",
+            "Saut\u00e9 onion and garlic in oil until soft.",
+            "Add cumin and turmeric, cook 1 minute.",
+            "Add lentils and water; simmer 20-25 minutes until soft.",
+            "Season and garnish with cilantro."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n de Lentil Dal with Cumin and Turmeric con una vibrante salsa rojiza-anaranjada y lentejas marrones claras. Est\u00e1 decorado con rodajas de lim\u00f3n, tomate cherry, cebolla y cilantro fresco."
+    },
+    {
+        "id": 13,
+        "name": "Miso-Glazed Cod with Sesame Rice",
+        "cuisine": "Japanese",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "2 cod fillets",
+            "2 tablespoons miso paste",
+            "1 tablespoon mirin",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sugar",
+            "1 cup cooked rice",
+            "Sesame seeds and green onions for garnish",
+            "1 teaspoon sesame oil"
+        ],
+        "directions": [
+            "Whisk miso, mirin, soy sauce, and sugar to make glaze.",
+            "Brush cod with glaze and let sit 5 minutes.",
+            "Pan-sear or bake cod until flaky.",
+            "Fluff rice with sesame oil, top with cod, sesame seeds, and green onions."
+        ],
+        "image_description": "El plato principal es un filete de pescado glaseado con salsa de miso, servido sobre arroz blanco y decorado con semillas de s\u00e9samo y cebolletas picadas. La presentaci\u00f3n incluye un taz\u00f3n de arroz adicional y salsas acompa\u00f1antes. El plato est\u00e1 dispuesto sobre una servilleta azul junto a palillos chinos y una cuchara de madera."
+    },
+    {
+        "id": 14,
+        "name": "Caribbean Jerk Chicken",
+        "cuisine": "Caribbean",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "25 mins",
+        "total_time": "45 mins",
+        "ingredients": [
+            "4 chicken thighs",
+            "2 tablespoons jerk seasoning",
+            "1 tablespoon lime juice",
+            "1 tablespoon olive oil",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Marinate chicken with jerk seasoning, lime juice, olive oil, and salt for 20 minutes.",
+            "Grill or bake until cooked through, about 20-25 minutes.",
+            "Rest briefly and serve with sides like rice and beans."
+        ],
+        "image_description": "El plato principal es Caribbean Jerk Chicken, consistente en cuatro muslos de pollo asados con una salsa oscura y brillante, espolvoreados con hierbas y especias, y adornados con rodajas de lima. El pollo se presenta en un plato de madera rodeado de ingredientes adicionales como arroz blanco, salsa de jerk y granos rojos. La presentaci\u00f3n es r\u00fastica y colorida, con un toque caribe\u00f1o."
+    },
+    {
+        "id": 15,
+        "name": "Roasted Tomato and Basil Pasta",
+        "cuisine": "Italian",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "300g pasta",
+            "3 cups cherry tomatoes, halved",
+            "3 cloves garlic, sliced",
+            "2 tablespoons olive oil",
+            "Fresh basil leaves",
+            "Salt and pepper",
+            "Grated parmesan"
+        ],
+        "directions": [
+            "Roast tomatoes and garlic with olive oil for 15-20 minutes.",
+            "Cook pasta until al dente, reserve 1/2 cup pasta water.",
+            "Toss pasta with roasted tomatoes, add water to loosen if needed.",
+            "Stir in torn basil and parmesan; season to taste."
+        ],
+        "image_description": "El plato presenta una pasta penne de color beige claro mezclada con tomates cherry asados en tonos rojos y naranjas, adornada con hojas de albahaca fresca de un verde vibrante y queso rallado. La presentaci\u00f3n es apetitosa y colorida, con los ingredientes bien distribuidos sobre una superficie cer\u00e1mica marr\u00f3n y azul. Alrededor del plato principal, se observan ingredientes adicionales como tomates cherry sin procesar, ajo y m\u00e1s albahaca, que complementan visualmente la composici\u00f3n."
+    },
+    {
+        "id": 16,
+        "name": "Paneer Butter Masala",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "250g paneer, cubed",
+            "2 tablespoons butter",
+            "1 onion, finely chopped",
+            "1 teaspoon ginger-garlic paste",
+            "2 tomatoes, pureed",
+            "1/2 cup cream",
+            "1 teaspoon garam masala",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Fry paneer lightly until golden; set aside.",
+            "Saut\u00e9 onion with butter, add ginger-garlic paste.",
+            "Add tomato puree and simmer 10 minutes.",
+            "Stir in cream, garam masala, and paneer; simmer 5 minutes.",
+            "Season to taste and serve with rice or naan."
+        ],
+        "image_description": "El plato principal es un curry rojo-anaranjado con cubos de paneer y aros de cebolla, decorado con hierbas frescas. La salsa tiene una textura suave y brillante. Est\u00e1 servido en un taz\u00f3n gris acompa\u00f1ado de naan y otros ingredientes."
+    },
+    {
+        "id": 17,
+        "name": "Falooda (Dessert Drink)",
+        "cuisine": "Indian",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "2 cups milk",
+            "2 tablespoons rose syrup",
+            "1 tablespoon vermicelli noodles (soaked)",
+            "1 scoop basil seeds (sabja), soaked",
+            "Ice",
+            "Cherries or shredded coconut for garnish"
+        ],
+        "directions": [
+            "In tall glasses, layer milk, rose syrup, soaked vermicelli, and sabja.",
+            "Add ice and garnish with cherries or coconut.",
+            "Serve with a spoon and straw."
+        ],
+        "image_description": "La imagen muestra dos vasos altos de Falooda, una bebida de postre popular en la India y otros pa\u00edses del sur de Asia. Los vasos contienen capas de fideos de vermicelli rosados, cubos de gelatina roja y leche blanca, coronados con nata montada y decorados con flores de rosa, hojas de menta y frutas rojas."
+    },
+    {
+        "id": 18,
+        "name": "Shakshuka",
+        "cuisine": "Mediterranean",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "20 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "1 tablespoon olive oil",
+            "1 onion, chopped",
+            "1 bell pepper, sliced",
+            "2 cloves garlic, minced",
+            "1 can (400g) chopped tomatoes",
+            "1 teaspoon paprika",
+            "1/2 teaspoon cumin",
+            "4 eggs",
+            "Fresh parsley for garnish",
+            "Salt and pepper to taste"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and pepper in olive oil until soft.",
+            "Add garlic, tomatoes, paprika, and cumin; simmer 10 minutes.",
+            "Make four wells in sauce and crack in eggs.",
+            "Cover and cook until eggs set; garnish with parsley."
+        ],
+        "image_description": "La imagen muestra una Shakshuka en una sart\u00e9n de hierro fundido negro, con huevos cocidos rodeados de pimientos rojos y verdes, cebolla y salsa de tomate de color rojo intenso. La presentaci\u00f3n es colorida y apetitosa, con una cuchara de madera dentro de la sart\u00e9n. La imagen est\u00e1 rodeada de ingredientes y especias que complementan el plato."
+    },
+    {
+        "id": 19,
+        "name": "Cuban Black Beans and Rice",
+        "cuisine": "Cuban",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "40 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "1 cup dried black beans (or 2 cans, drained)",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 bay leaf",
+            "1 teaspoon cumin",
+            "1 tablespoon olive oil",
+            "Rice to serve"
+        ],
+        "directions": [
+            "Soak beans if using dried (overnight recommended).",
+            "Saut\u00e9 onion and garlic in oil; add beans, bay leaf, cumin, and water.",
+            "Simmer until beans are tender (about 45 minutes for dried).",
+            "Serve over rice."
+        ],
+        "image_description": "El plato de Cuban Black Beans and Rice presenta un contraste visual atractivo con el arroz blanco esponjoso en el centro, rodeado de frijoles negros brillantes y adornado con trozos de ajo y hojas verdes. La combinaci\u00f3n de colores oscuros y claros resalta la simplicidad y elegancia del plato. La presentaci\u00f3n en un plato blanco subraya a\u00fan m\u00e1s los colores y texturas de los ingredientes."
+    },
+    {
+        "id": 20,
+        "name": "Beef Bulgogi",
+        "cuisine": "Korean",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "10 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "500g sirloin or flank steak, thinly sliced",
+            "2 tablespoons soy sauce",
+            "1 tablespoon sugar",
+            "1 tablespoon sesame oil",
+            "2 cloves garlic, minced",
+            "1 teaspoon grated ginger",
+            "1 green onion, chopped",
+            "Sesame seeds for garnish"
+        ],
+        "directions": [
+            "Marinate beef with soy sauce, sugar, sesame oil, garlic, and ginger for 15-20 minutes.",
+            "Stir-fry in a hot pan 2-3 minutes until cooked.",
+            "Garnish with green onion and sesame seeds; serve with rice."
+        ],
+        "image_description": "El plato principal es un Beef Bulgogi, carne de ternera marinada y asada, cortada en tiras finas y servida en un plato gris. La carne tiene un color marr\u00f3n oscuro en el exterior y rosa en el interior, con una textura suave y brillante, y est\u00e1 decorada con semillas de s\u00e9samo y cebolletas picadas."
+    },
+    {
+        "id": 21,
+        "name": "Spanish Paella Valenciana",
+        "cuisine": "Spanish",
+        "servings": 4,
+        "prep_time": "25 mins",
+        "cook_time": "40 mins",
+        "total_time": "1 hour 5 mins",
+        "ingredients": [
+            "1 cup bomba rice or arborio",
+            "200g chicken pieces",
+            "150g chorizo, sliced",
+            "1 onion, chopped",
+            "1 red bell pepper, chopped",
+            "2 tomatoes, chopped",
+            "2 cups chicken broth",
+            "Saffron threads",
+            "Olive oil",
+            "Salt"
+        ],
+        "directions": [
+            "Brown chicken and chorizo in olive oil; set aside.",
+            "Saut\u00e9 onion and pepper; add tomatoes and cook until soft.",
+            "Add rice, saffron, and broth; bring to boil.",
+            "Return meat, cover, simmer until rice is cooked and liquid absorbed.",
+            "Rest 5 minutes before serving."
+        ],
+        "image_description": "La imagen muestra una Paella Valenciana en una sart\u00e9n grande, con un arroz dorado y especiado, adornado con trozos de pollo dorado, tomates cherry y guisantes. La paella est\u00e1 decorada con romero fresco y pimientos secos, y se presenta en una sart\u00e9n de metal oscura con asas, rodeada de ingredientes frescos y especias."
+    },
+    {
+        "id": 22,
+        "name": "Tom Yum Goong",
+        "cuisine": "Thai",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "4 cups stock",
+            "2 stalks lemongrass, smashed",
+            "3 kaffir lime leaves",
+            "3-4 slices galangal",
+            "200g shrimp, peeled",
+            "1 cup mushrooms",
+            "2 tablespoons fish sauce",
+            "Lime juice to taste",
+            "Chili paste (optional)"
+        ],
+        "directions": [
+            "Boil stock with lemongrass, lime leaves, and galangal for 10 minutes.",
+            "Add mushrooms and shrimp; cook until shrimp turn pink.",
+            "Season with fish sauce and lime juice; add chili paste if desired."
+        ],
+        "image_description": "El plato luce una sopa de color naranja claro con camarones, champi\u00f1ones y trozos de lim\u00f3n y guindilla. Est\u00e1 decorado con hojas verdes y presentado en un taz\u00f3n blanco con una cuchara. El fondo incluye un taz\u00f3n peque\u00f1o con salsa oscura."
+    },
+    {
+        "id": 23,
+        "name": "Chicken Caesar Salad",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "2 chicken breasts",
+            "Romaine lettuce",
+            "Croutons",
+            "Parmesan cheese",
+            "Caesar dressing"
+        ],
+        "directions": [
+            "Grill or pan-sear chicken; slice.",
+            "Toss lettuce with dressing and croutons.",
+            "Top with chicken slices and parmesan."
+        ],
+        "image_description": "La imagen muestra una Chicken Caesar Salad con lechuga romana verde, croutones dorados y tomates cherry rojos, coronada con pollo a la parrilla sazonado y virutas de queso parmesano blanco. La ensalada est\u00e1 ba\u00f1ada en una salsa cremosa y presentada en un taz\u00f3n gris oscuro."
+    },
+    {
+        "id": 24,
+        "name": "Moussaka",
+        "cuisine": "Greek",
+        "servings": 4,
+        "prep_time": "30 mins",
+        "cook_time": "60 mins",
+        "total_time": "1 hour 30 mins",
+        "ingredients": [
+            "2 eggplants, sliced",
+            "500g ground lamb",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 can tomatoes",
+            "Bechamel sauce: butter, flour, milk, nutmeg",
+            "Olive oil, salt, pepper"
+        ],
+        "directions": [
+            "Roast eggplant slices until tender.",
+            "Cook lamb with onion and garlic; add tomatoes and season.",
+            "Layer eggplant and meat mixture in dish; top with bechamel.",
+            "Bake until golden and set."
+        ],
+        "image_description": "La imagen muestra un plato de Moussaka reci\u00e9n horneado, con capas de berenjenas, carne picada y salsa de tomate, cubierto con una capa dorada de bechamel. La presentaci\u00f3n es apetitosa, con ingredientes frescos como tomates y hierbas alrededor. La textura y el color dorado resaltan su atractivo visual."
+    },
+    {
+        "id": 25,
+        "name": "Shoyu Ramen (Quick)",
+        "cuisine": "Japanese",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "2 servings ramen noodles",
+            "4 cups chicken broth",
+            "2 tablespoons soy sauce",
+            "1 teaspoon miso paste",
+            "Soft-boiled eggs",
+            "Slices of pork or chicken",
+            "Green onions"
+        ],
+        "directions": [
+            "Simmer broth with soy sauce and miso.",
+            "Cook noodles separately.",
+            "Assemble bowls with broth, noodles, meat, egg, and green onions."
+        ],
+        "image_description": "El plato de Shoyu Ramen presenta un caldo claro de color marr\u00f3n claro, con fideos ondulados y varios ingredientes dispuestos art\u00edsticamente. Se observan rebanadas de carne asada a la derecha, cebolla verde picada esparcida por encima y dos mitades de huevo marinado en la parte superior. La presentaci\u00f3n se completa con semillas de s\u00e9samo y un toque de aceite en la superficie del caldo."
+    },
+    {
+        "id": 26,
+        "name": "Lemon Garlic Shrimp Pasta",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "200g linguine",
+            "200g shrimp, peeled",
+            "2 cloves garlic, minced",
+            "1 lemon (zest and juice)",
+            "2 tablespoons olive oil",
+            "Parsley, chopped",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Cook pasta until al dente.",
+            "Saut\u00e9 garlic in olive oil; add shrimp until pink.",
+            "Toss with pasta, lemon zest/juice, and parsley.",
+            "Season and serve."
+        ],
+        "image_description": "El plato presenta fettuccine amarillos mezclados con gambas rosadas, jud\u00edas verdes y rodajas de lim\u00f3n, todo mezclado en una salsa ligera y brillante. La presentaci\u00f3n es generosa, con los ingredientes distribuidos de manera uniforme sobre el plato. Alrededor del plato, se ven limones cortados, dientes de ajo y otros condimentos que complementan el plato principal."
+    },
+    {
+        "id": 27,
+        "name": "Ratatouille",
+        "cuisine": "French",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "45 mins",
+        "total_time": "1 hour 5 mins",
+        "ingredients": [
+            "1 eggplant, cubed",
+            "2 zucchinis, sliced",
+            "1 bell pepper, chopped",
+            "1 onion, chopped",
+            "2 tomatoes, chopped",
+            "2 cloves garlic, minced",
+            "Herbs de Provence",
+            "Olive oil"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic in olive oil.",
+            "Add vegetables; cook slowly with herbs until tender.",
+            "Season and serve warm or room temp."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n de Ratatouille, un plato franc\u00e9s hecho con verduras asadas. El taz\u00f3n contiene una mezcla colorida de berenjenas, calabacines, tomates y pimientos rojos, todos cortados en rodajas finas y mezclados con hierbas frescas. La presentaci\u00f3n es apetitosa, con los ingredientes dispuestos de manera atractiva y rodeados de ingredientes frescos y especias."
+    },
+    {
+        "id": 28,
+        "name": "Crispy Skin Salmon with Dill Yogurt",
+        "cuisine": "Scandinavian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "12 mins",
+        "total_time": "22 mins",
+        "ingredients": [
+            "2 salmon fillets",
+            "Salt and pepper",
+            "1 tablespoon butter",
+            "1/2 cup yogurt",
+            "Fresh dill, chopped",
+            "Lemon wedges"
+        ],
+        "directions": [
+            "Season salmon; sear skin-side down in butter until crisp.",
+            "Flip and cook to desired doneness.",
+            "Mix yogurt with dill and a squeeze of lemon; serve with salmon."
+        ],
+        "image_description": "La imagen muestra un plato de salm\u00f3n con piel crujiente acompa\u00f1ado de una salsa de yogur con eneldo. El salm\u00f3n est\u00e1 dorado y sazonado con pimienta y hierbas frescas, y se sirve con rodajas de lim\u00f3n y un taz\u00f3n peque\u00f1o de salsa blanca con eneldo picado encima. La presentaci\u00f3n es elegante y apetitosa, con cubiertos de color dorado al lado."
+    },
+    {
+        "id": 29,
+        "name": "Thai Green Curry with Vegetables",
+        "cuisine": "Thai",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "2 tablespoons green curry paste",
+            "1 can coconut milk",
+            "Assorted vegetables (bell peppers, zucchini, snow peas)",
+            "Tofu or chicken",
+            "Fish sauce to taste",
+            "Basil or cilantro",
+            "Rice to serve"
+        ],
+        "directions": [
+            "Saut\u00e9 curry paste briefly in oil.",
+            "Add coconut milk and simmer 5 minutes.",
+            "Add protein and vegetables; cook until tender.",
+            "Season with fish sauce and garnish with herbs; serve over rice."
+        ],
+        "image_description": "El curry verde tailand\u00e9s con verduras se presenta en un taz\u00f3n con una vibrante salsa amarilla-verdosa, acompa\u00f1ada de arroz blanco esponjoso y adornada con hierbas frescas. El plato est\u00e1 decorado con una variedad de verduras coloridas, como pimientos rojos y verdes, calabacines y tofu dorado. Chopsticks de madera descansan sobre el borde del taz\u00f3n, listos para ser utilizados."
+    },
+    {
+        "id": 30,
+        "name": "Mango Sticky Rice",
+        "cuisine": "Thai",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "1 cup glutinous rice",
+            "1 1/2 cups water",
+            "1/2 cup coconut milk",
+            "2 tablespoons sugar",
+            "1 ripe mango, sliced",
+            "Pinch salt"
+        ],
+        "directions": [
+            "Cook rice in water until tender.",
+            "Warm coconut milk with sugar and salt.",
+            "Pour coconut sauce over cooked rice and let absorb.",
+            "Serve with mango slices."
+        ],
+        "image_description": "El plato de Mango Sticky Rice presenta arroz glutinoso blanco cubierto con dados de mango maduro y una salsa cremosa de color naranja, decorado con hojas verdes frescas. La presentaci\u00f3n incluye un taz\u00f3n con el plato principal, acompa\u00f1ado de un plato con dados de mango adicionales y otros ingredientes como az\u00facar y sal en peque\u00f1os recipientes. La combinaci\u00f3n de colores vibrantes y la disposici\u00f3n de los ingredientes resaltan la frescura y la riqueza del postre."
+    },
+    {
+        "id": 31,
+        "name": "Herbed Quinoa Salad",
+        "cuisine": "American",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "1 cup quinoa, rinsed",
+            "2 cups water",
+            "Cherry tomatoes, halved",
+            "Cucumber, diced",
+            "Parsley and mint, chopped",
+            "Lemon vinaigrette: lemon juice, olive oil, salt, pepper"
+        ],
+        "directions": [
+            "Cook quinoa in water until fluffy; cool.",
+            "Toss with vegetables, herbs, and vinaigrette.",
+            "Chill 10 minutes before serving if desired."
+        ],
+        "image_description": "La ensalada de quinoa con hierbas presenta una mezcla vibrante de quinoa cocida, tomates cherry rojos y amarillos cortados por la mitad, pepino en rodajas y perejil fresco, todo mezclado en un taz\u00f3n blanco. La ensalada est\u00e1 decorada con perejil fresco y tiene una apariencia fresca y colorida. El plato est\u00e1 rodeado de ingredientes adicionales como lim\u00f3n, aceite de oliva y especias, que complementan la presentaci\u00f3n."
+    },
+    {
+        "id": 32,
+        "name": "Beef Shawarma Wrap",
+        "cuisine": "Middle Eastern",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "400g beef strips",
+            "Shawarma spice blend",
+            "Pita breads",
+            "Tomato, cucumber, onion slices",
+            "Tahini sauce or yogurt sauce"
+        ],
+        "directions": [
+            "Marinate beef with shawarma spices.",
+            "Cook beef in a hot pan until done.",
+            "Fill pitas with beef and vegetables; drizzle with sauce."
+        ],
+        "image_description": "El Beef Shawarma Wrap est\u00e1 envuelto en pan pita tostado, relleno de carne de ternera a la parrilla, tomate, pepino y cebolla. Se acompa\u00f1a de salsas como tzatziki y hummus, y de ingredientes frescos como tomate y pepino en rodajas."
+    },
+    {
+        "id": 33,
+        "name": "Pesto Chicken Bake",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "4 chicken breasts",
+            "3 tablespoons pesto",
+            "1 cup mozzarella, shredded",
+            "Cherry tomatoes",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Season chicken and place in baking dish.",
+            "Top each with pesto, mozzarella, and tomatoes.",
+            "Bake at 200\u00b0C (400\u00b0F) for 22-25 minutes until chicken is cooked."
+        ],
+        "image_description": "El plato luce pechugas de pollo a la parrilla sobre una capa de pasta y queso derretido, cubierto con salsa pesto y tomates cherry asados. La presentaci\u00f3n es apetitosa y colorida, con un contraste entre el verde de la salsa y el rojo de los tomates. La bandeja de horno beige resalta los colores vibrantes de los ingredientes."
+    },
+    {
+        "id": 34,
+        "name": "Baked Eggplant Parmesan",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "40 mins",
+        "total_time": "1 hour",
+        "ingredients": [
+            "2 eggplants, sliced",
+            "1 cup marinara sauce",
+            "1 cup mozzarella, shredded",
+            "1/2 cup parmesan, grated",
+            "Breadcrumbs",
+            "Eggs"
+        ],
+        "directions": [
+            "Dip eggplant slices in egg then breadcrumbs; bake until tender.",
+            "Layer with marinara and cheese; bake until golden."
+        ],
+        "image_description": "El plato luce una textura dorada y crujiente en la superficie, con capas de berenjena rebozadas y queso derretido. La salsa de tomate roja se aprecia entre las capas y alrededor del plato, creando un contraste de colores. El queso rallado espolvorea la superficie, d\u00e1ndole un acabado apetitoso."
+    },
+    {
+        "id": 35,
+        "name": "Moroccan Chickpea Stew",
+        "cuisine": "Moroccan",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "1 onion, chopped",
+            "2 garlic cloves, minced",
+            "1 can chickpeas",
+            "1 can diced tomatoes",
+            "1 teaspoon cumin",
+            "1 teaspoon coriander",
+            "1/2 teaspoon cinnamon",
+            "Olive oil",
+            "Fresh cilantro"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add spices.",
+            "Add chickpeas and tomatoes; simmer 15-20 minutes.",
+            "Garnish with cilantro and serve."
+        ],
+        "image_description": "El Moroccan Chickpea Stew es una vibrante mezcla de garbanzos cocidos en una salsa rojiza-anaranjada, adornada con cilantro fresco y dados de tomate. Est\u00e1 servido en un cuenco de cer\u00e1mica decorado con motivos azules y dorados. La guarnici\u00f3n incluye hierbas frescas espolvoreadas sobre el plato."
+    },
+    {
+        "id": 36,
+        "name": "Crunchy Cabbage Slaw",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "1/2 head cabbage, shredded",
+            "1 carrot, shredded",
+            "1/4 cup mayonnaise",
+            "2 tablespoons rice vinegar",
+            "1 teaspoon sugar",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Mix dressing ingredients.",
+            "Toss with shredded cabbage and carrot.",
+            "Chill slightly before serving."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n grande de Crunchy Cabbage Slaw, una ensalada fresca y colorida con repollo rallado blanco-verdoso y zanahorias naranjas brillantes, presentada en un taz\u00f3n azul-verdoso con borde marr\u00f3n. Alrededor del taz\u00f3n principal, varios tazones m\u00e1s peque\u00f1os contienen los ingredientes: repollo rallado, zanahorias ralladas, az\u00facar, vinagre, aceite de oliva y otros condimentos, todos perfectamente ordenados. La presentaci\u00f3n es limpia y organizada, con una cuchara y un cuchillo junto al taz\u00f3n principal."
+    },
+    {
+        "id": 37,
+        "name": "Ceviche de Pescado",
+        "cuisine": "Peruvian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "400g white fish (like sea bass), diced",
+            "Juice of 2 limes",
+            "1/2 red onion, thinly sliced",
+            "Chili peppers, finely chopped",
+            "Cilantro",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Cure fish in lime juice for about 10-15 minutes until opaque.",
+            "Mix with onion, chili, and cilantro; season and serve."
+        ],
+        "image_description": "El Ceviche de Pescado se presenta en un taz\u00f3n con trozos de pescado crudo de color blanco, mezclados con rodajas finas de aj\u00ed rojo, aros de cebolla morada y hojas de cilantro fresco. La preparaci\u00f3n est\u00e1 adornada con una rodaja de lim\u00f3n y se aprecia jugo de lim\u00f3n en el taz\u00f3n. El plato se ve fresco y colorido, con ingredientes visibles que resaltan su autenticidad."
+    },
+    {
+        "id": 38,
+        "name": "Thai Basil Chicken (Pad Krapow Gai)",
+        "cuisine": "Thai",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "8 mins",
+        "total_time": "18 mins",
+        "ingredients": [
+            "200g minced chicken",
+            "2 cloves garlic, minced",
+            "1 chili, chopped",
+            "1 tablespoon soy sauce",
+            "1 tablespoon fish sauce",
+            "Basil leaves",
+            "Rice to serve"
+        ],
+        "directions": [
+            "Saut\u00e9 garlic and chili in oil until fragrant.",
+            "Add chicken and cook through.",
+            "Stir in soy and fish sauces; toss with basil until wilted.",
+            "Serve over steamed rice."
+        ],
+        "image_description": "El plato de Thai Basil Chicken (Pad Krapow Gai) se presenta en un taz\u00f3n blanco con decoraciones azules, mostrando trozos de pollo salteados con salsa oscura, mezclados con hojas verdes de albahaca y pimientos rojos, acompa\u00f1ado de una porci\u00f3n de arroz blanco al lado. La guarnici\u00f3n incluye hojas de albahaca fresca y pimientos rojos visibles en la preparaci\u00f3n. El entorno est\u00e1 adornado con ingredientes adicionales como dientes de ajo y guindillas dispersos alrededor del plato."
+    },
+    {
+        "id": 39,
+        "name": "Caprese Salad",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "0 mins",
+        "total_time": "10 mins",
+        "ingredients": [
+            "Tomatoes, sliced",
+            "Fresh mozzarella, sliced",
+            "Fresh basil leaves",
+            "Olive oil",
+            "Balsamic glaze",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Alternate tomato and mozzarella slices on a plate.",
+            "Top with basil; drizzle olive oil and balsamic glaze.",
+            "Season with salt and pepper."
+        ],
+        "image_description": "La imagen muestra una ensalada Caprese en un plato blanco, con rodajas de tomate y mozzarella alternadas, decoradas con hojas de albahaca fresca y aderezadas con aceite de oliva y vinagreta bals\u00e1mica. El plato se presenta sobre una tabla de madera, acompa\u00f1ado de un taz\u00f3n peque\u00f1o con vinagreta bals\u00e1mica y cubiertos a un lado."
+    },
+    {
+        "id": 40,
+        "name": "Pumpkin Risotto",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "40 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "1 cup arborio rice",
+            "1 cup pumpkin puree",
+            "1/2 onion, finely chopped",
+            "3 cups vegetable broth",
+            "1/4 cup parmesan",
+            "2 tablespoons butter",
+            "Olive oil"
+        ],
+        "directions": [
+            "Saut\u00e9 onion in olive oil until translucent.",
+            "Add rice and toast 1-2 minutes.",
+            "Add warm broth gradually, stirring until absorbed.",
+            "Stir in pumpkin puree, butter, and parmesan; season to taste."
+        ],
+        "image_description": "El risotto de calabaza se presenta en una sart\u00e9n negra, mostrando una textura cremosa y un color anaranjado claro debido a la calabaza. Est\u00e1 adornado con dados de calabaza y cebolla roja finamente picada, y se observan trozos de mantequilla derriti\u00e9ndose en su superficie."
+    },
+    {
+        "id": 41,
+        "name": "Garlic Butter Shrimp",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "5 mins",
+        "cook_time": "6 mins",
+        "total_time": "11 mins",
+        "ingredients": [
+            "200g shrimp, peeled",
+            "2 tablespoons butter",
+            "2 cloves garlic, minced",
+            "Lemon juice",
+            "Parsley"
+        ],
+        "directions": [
+            "Melt butter; add garlic and cook 1 minute.",
+            "Add shrimp; cook until pink.",
+            "Squeeze lemon juice; garnish with parsley and serve."
+        ],
+        "image_description": "El plato de Garlic Butter Shrimp presenta gambas rosadas cocidas en una salsa dorada con mantequilla y ajo, decorado con perejil fresco y acompa\u00f1ado de lim\u00f3n y dientes de ajo en una bandeja de madera. La presentaci\u00f3n es apetitosa y fresca, con una guarnici\u00f3n de lim\u00f3n y perejil que a\u00f1ade color y textura al plato. La salsa brillante y los camarones jugosos destacan en una sart\u00e9n negra sobre una tabla de madera rodeada de ingredientes frescos."
+    },
+    {
+        "id": 42,
+        "name": "Roasted Red Pepper Hummus",
+        "cuisine": "Middle Eastern",
+        "servings": 6,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "1 can chickpeas",
+            "1 roasted red pepper",
+            "2 tablespoons tahini",
+            "1 clove garlic",
+            "Juice of 1 lemon",
+            "Salt and olive oil"
+        ],
+        "directions": [
+            "Blend all ingredients until smooth.",
+            "Drizzle with olive oil and serve with pita or veggies."
+        ],
+        "image_description": "El hummus se presenta en un taz\u00f3n de cer\u00e1mica de color oscuro, con una textura suave y cremosa, y un color beige claro. Est\u00e1 decorado con un espiral de aceite de oliva, pimienta negra, sal gruesa y chili rojo, y en el centro, una rodaja de pimiento rojo y garbanzos."
+    },
+    {
+        "id": 43,
+        "name": "Garlic Naan",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "8 mins",
+        "total_time": "28 mins",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "1/2 cup yogurt",
+            "1/2 cup warm water",
+            "2 tablespoons oil",
+            "1 teaspoon yeast",
+            "Garlic, minced",
+            "Salt"
+        ],
+        "directions": [
+            "Mix ingredients to form dough; knead until smooth.",
+            "Let rise 1 hour; divide and roll into rounds.",
+            "Cook on hot skillet 2-3 minutes per side.",
+            "Brush with garlic butter and serve."
+        ],
+        "image_description": "La imagen muestra un plato de Garlic Naan, un tipo de pan plano indio, presentado en una disposici\u00f3n circular sobre un plato gris con borde marr\u00f3n. Los naan est\u00e1n dorados y presentan marcas de cocci\u00f3n oscuras, con trozos de ajo visibles en su superficie y un peque\u00f1o taz\u00f3n de ajo en el centro."
+    },
+    {
+        "id": 44,
+        "name": "Butter Chicken",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "500g chicken, cubed",
+            "2 tablespoons butter",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 teaspoon garam masala",
+            "1 can tomato sauce",
+            "1/2 cup cream",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic in butter.",
+            "Add chicken and cook until sealed.",
+            "Stir in tomato sauce and garam masala; simmer 15 minutes.",
+            "Stir in cream; season and serve with rice or naan."
+        ],
+        "image_description": "El plato luce una salsa roja intensa con trozos de pollo y cebolla, decorado con hierbas verdes frescas. La presentaci\u00f3n es apetitosa y el plato est\u00e1 servido en un taz\u00f3n de cer\u00e1mica azul. La combinaci\u00f3n de colores y texturas resalta la riqueza del curry."
+    },
+    {
+        "id": 45,
+        "name": "Coconut Curry Lentil Soup",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "1 cup red lentils",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 tablespoon curry powder",
+            "1 can coconut milk",
+            "2 cups vegetable broth",
+            "Salt to taste"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add curry powder.",
+            "Add lentils, coconut milk, and broth; simmer 25 minutes.",
+            "Season and serve hot."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n de Coconut Curry Lentil Soup con un vibrante color naranja y una textura suave y cremosa. Est\u00e1 decorada con lentejas, cebolla, hierbas frescas y guindillas rojas, y tiene una espiral de crema en la parte superior. El taz\u00f3n est\u00e1 rodeado de ingredientes como c\u00farcuma, lentejas y lim\u00f3n, lo que sugiere que se trata de una receta india."
+    },
+    {
+        "id": 46,
+        "name": "Gyro Wrap",
+        "cuisine": "Greek",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Gyro meat (lamb or chicken) or substitute with sliced chicken",
+            "Pita breads",
+            "Tomato, onion, cucumber slices",
+            "Tzatziki sauce"
+        ],
+        "directions": [
+            "Cook gyro meat until browned.",
+            "Warm pita; fill with meat and vegetables.",
+            "Top with tzatziki."
+        ],
+        "image_description": "El Gyro Wrap est\u00e1 envuelto en un pita tostado y relleno de carne de cordero a la parrilla, tomate, pepino y cebolla roja, con una base de tzatziki. La presentaci\u00f3n es apetitosa, con ingredientes frescos y bien distribuidos. El plato est\u00e1 adornado con hierbas frescas espolvoreadas sobre el relleno y alrededor del wrap."
+    },
+    {
+        "id": 47,
+        "name": "Pollo a la Brasa (Peruvian Roast Chicken)",
+        "cuisine": "Peruvian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "45 mins",
+        "total_time": "1 hour",
+        "ingredients": [
+            "4 chicken thighs",
+            "2 cloves garlic, minced",
+            "1 teaspoon cumin",
+            "1 teaspoon paprika",
+            "Salt and pepper",
+            "Lime wedges"
+        ],
+        "directions": [
+            "Marinate chicken with garlic, cumin, paprika, salt, and pepper.",
+            "Roast at 200\u00b0C (400\u00b0F) for 40-45 minutes until cooked.",
+            "Serve with lime wedges."
+        ],
+        "image_description": "El Pollo a la Brasa est\u00e1 presentado en un plato de cer\u00e1mica marr\u00f3n, cortado en cuartos y dispuesto en forma circular. La piel del pollo tiene un color dorado oscuro y una textura crujiente, con trozos de lim\u00f3n y hierbas alrededor. El plato est\u00e1 decorado con rodajas de lim\u00f3n y acompa\u00f1ado de peque\u00f1os tazones con ingredientes como sal y especias."
+    },
+    {
+        "id": 48,
+        "name": "Mango Salsa Chicken",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "4 chicken breasts",
+            "1 mango, diced",
+            "1 red onion, diced",
+            "Cilantro, chopped",
+            "Lime juice",
+            "Salt"
+        ],
+        "directions": [
+            "Season chicken and sear in a pan.",
+            "Top with mango salsa (mango, onion, cilantro, lime juice).",
+            "Bake 10 minutes to finish cooking."
+        ],
+        "image_description": "El plato presenta cuatro pechugas de pollo a la parrilla, con marcas visibles de la parrilla, acompa\u00f1adas de una vibrante salsa de mango que incluye dados de mango, cebolla roja y pimiento rojo, todo ello adornado con rodajas de lima y hojas de cilantro fresco. La salsa tiene un color amarillo anaranjado intenso y una textura jugosa, lo que a\u00f1ade un toque de frescura al plato. La presentaci\u00f3n es apetitosa y colorida, con los ingredientes dispuestos art\u00edsticamente sobre un plato blanco con borde marr\u00f3n."
+    },
+    {
+        "id": 49,
+        "name": "Rice Paper Rolls with Peanut Dip",
+        "cuisine": "Vietnamese",
+        "servings": 4,
+        "prep_time": "25 mins",
+        "cook_time": "0 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Rice paper sheets",
+            "Rice noodles",
+            "Shrimp or tofu",
+            "Fresh herbs (mint, basil)",
+            "Carrots, cucumber, lettuce",
+            "Peanut dipping sauce"
+        ],
+        "directions": [
+            "Soak rice papers; fill with noodles, greens, and protein.",
+            "Roll tightly; serve with peanut dip."
+        ],
+        "image_description": "La imagen muestra un plato de rollos de papel de arroz con salsa de cacahuete, presentado en una cesta de bamb\u00fa rodeado de ingredientes frescos como lechuga, zanahoria rallada, pepino en rodajas y fideos de arroz. La salsa de cacahuete, de color marr\u00f3n claro, est\u00e1 decorada con semillas de s\u00e9samo y hojas de menta. El plato est\u00e1 acompa\u00f1ado de palillos chinos y otros acompa\u00f1amientos como tofu y cacahuetes."
+    },
+    {
+        "id": 50,
+        "name": "Beef Nachos",
+        "cuisine": "Mexican",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Tortilla chips",
+            "Ground beef",
+            "Cheddar cheese",
+            "Refried beans (optional)",
+            "Salsa, sour cream, jalapenos"
+        ],
+        "directions": [
+            "Cook beef with seasoning.",
+            "Layer chips, beef, and cheese; bake until cheese melts.",
+            "Top with beans, salsa, sour cream, and jalapenos."
+        ],
+        "image_description": "La imagen muestra un plato de Beef Nachos con una presentaci\u00f3n colorida y apetitosa. El plato est\u00e1 dividido en secciones con totopos cubiertos de queso derretido, carne de ternera desmenuzada, frijoles, jalape\u00f1os y salsa de crema en el centro. Alrededor del plato principal hay tazones con ingredientes adicionales como queso rallado, salsa roja, jalape\u00f1os frescos y aguacate."
+    },
+    {
+        "id": 51,
+        "name": "Herbed Chicken Skewers",
+        "cuisine": "Mediterranean",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "12 mins",
+        "total_time": "32 mins",
+        "ingredients": [
+            "4 chicken thighs, cubed",
+            "Olive oil",
+            "Herbs (rosemary, thyme)",
+            "Lemon wedges",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Thread chicken onto skewers after marinating briefly.",
+            "Grill until cooked through, basting with oil and herbs.",
+            "Serve with lemon wedges."
+        ],
+        "image_description": "La imagen muestra unos *Herbed Chicken Skewers* presentados en un plato gris claro, con trozos de pollo a la parrilla, marinados con hierbas como romero y condimentados con pimienta y sal. El plato incluye cu\u00f1as de lim\u00f3n y est\u00e1 decorado con aceite de oliva y ramitas de romero."
+    },
+    {
+        "id": 52,
+        "name": "Coconut Shrimp Curry",
+        "cuisine": "Caribbean",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Shrimp",
+            "Coconut milk",
+            "Curry powder",
+            "Onion, garlic",
+            "Bell pepper",
+            "Salt"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add curry powder.",
+            "Add coconut milk and vegetables; simmer 10 minutes.",
+            "Add shrimp; cook until pink and serve."
+        ],
+        "image_description": "El plato de Coconut Shrimp Curry se presenta en una sart\u00e9n, mostrando gambas rosadas rodeadas de verduras como pimientos rojos y verdes, y cebolla, todo en una salsa amarilla espesa. La imagen est\u00e1 rodeada de ingredientes y especias, resaltando los elementos que componen la receta. La presentaci\u00f3n es colorida y apetitosa, con una clara indicaci\u00f3n de los componentes del plato."
+    },
+    {
+        "id": 53,
+        "name": "Herbed Mushroom Risotto",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "25 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "1 cup arborio rice",
+            "Mushrooms, sliced",
+            "1 small onion, chopped",
+            "1/2 cup white wine",
+            "1/2 cup parmesan",
+            "Broth"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and mushrooms; add rice and toast.",
+            "Deglaze with wine; add broth gradually until creamy."
+        ],
+        "image_description": "El risotto de champi\u00f1ones y hierbas se presenta en un taz\u00f3n marr\u00f3n con una textura cremosa y un color beige claro, decorado con champi\u00f1ones salteados de color marr\u00f3n oscuro y hierbas frescas verdes. Alrededor del taz\u00f3n principal, se ven varios ingredientes y condimentos como queso rallado, aceite de oliva, champi\u00f1ones frescos y hierbas secas, que complementan el plato. La presentaci\u00f3n es apetitosa y est\u00e1 rodeada de los elementos necesarios para su preparaci\u00f3n."
+    },
+    {
+        "id": 54,
+        "name": "Lemon Ricotta Pancakes",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "1 cup flour",
+            "1/2 cup ricotta",
+            "1 egg",
+            "1/2 cup milk",
+            "Zest of lemon",
+            "Butter for cooking"
+        ],
+        "directions": [
+            "Mix all ingredients into a smooth batter.",
+            "Cook on a hot skillet until bubbles form; flip and cook through."
+        ],
+        "image_description": "La imagen muestra un plato de pancakes con una presentaci\u00f3n atractiva. El pancake central est\u00e1 dorado y cubierto con az\u00facar glas y una bola de mantequilla amarilla brillante. Alrededor del pancake, hay varios ingredientes y condimentos dispuestos en peque\u00f1os tazones y montones sobre la bandeja met\u00e1lica gris."
+    },
+    {
+        "id": 55,
+        "name": "Egg Fried Rice",
+        "cuisine": "Chinese",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "8 mins",
+        "total_time": "18 mins",
+        "ingredients": [
+            "Cooked rice",
+            "Eggs",
+            "Green onions",
+            "Soy sauce",
+            "Peas and carrots"
+        ],
+        "directions": [
+            "Scramble eggs in a wok; set aside.",
+            "Stir-fry vegetables, add rice, then eggs.",
+            "Season with soy sauce and scallions."
+        ],
+        "image_description": "El plato luce una mezcla de arroz integral salteado con zanahorias y guisantes, coronado por cuatro huevos fritos con las yemas l\u00edquidas y adornados con semillas de s\u00e9samo. La presentaci\u00f3n incluye cebolla de verdeo picada alrededor del plato, y dos peque\u00f1os cuencos con salsa oscura a un lado. Todo est\u00e1 servido en una sart\u00e9n de hierro fundido sobre una superficie gris oscura."
+    },
+    {
+        "id": 56,
+        "name": "Okonomiyaki (Japanese Pancake)",
+        "cuisine": "Japanese",
+        "servings": 2,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Cabbage, shredded",
+            "Flour, water, egg batter",
+            "Thinly sliced pork or shrimp",
+            "Okonomiyaki sauce",
+            "Mayonnaise"
+        ],
+        "directions": [
+            "Mix batter with cabbage.",
+            "Cook on a griddle; top with meat and flip.",
+            "Brush with sauce and drizzle with mayo."
+        ],
+        "image_description": "Okonomiyaki es una tortita japonesa salada elaborada con una mezcla de harina, huevo y col, que se cocina en una sart\u00e9n y se adereza con una salsa marr\u00f3n oscura y mayonesa. En esta imagen, la tortita est\u00e1 decorada con gambas, salsa y mayonesa, y se presenta en un plato blanco sobre una mesa de madera."
+    },
+    {
+        "id": 57,
+        "name": "Herb-Ceta Pasta with Lemon",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "12 mins",
+        "total_time": "22 mins",
+        "ingredients": [
+            "Pasta of choice",
+            "Lemon zest and juice",
+            "Fresh herbs (parsley, basil)",
+            "Olive oil",
+            "Parmesan"
+        ],
+        "directions": [
+            "Cook pasta; reserve some pasta water.",
+            "Toss with lemon zest, juice, herbs, and olive oil.",
+            "Add a splash of pasta water; finish with parmesan."
+        ],
+        "image_description": "La imagen muestra un plato de pasta penne con una salsa verde y decorado con rodajas de lim\u00f3n y hojas de albahaca. La pasta est\u00e1 espolvoreada con queso rallado y tiene una apariencia apetitosa y fresca. El plato est\u00e1 presentado en un taz\u00f3n de cer\u00e1mica gris sobre una tabla de madera, acompa\u00f1ado de un tenedor a un lado."
+    },
+    {
+        "id": 58,
+        "name": "Coconut Rice with Beans",
+        "cuisine": "Caribbean",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "20 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "Cooked rice",
+            "Coconut milk",
+            "Black beans",
+            "Garlic powder",
+            "Cilantro"
+        ],
+        "directions": [
+            "Simmer coconut milk with garlic powder; stir in beans and cilantro.",
+            "Serve over rice."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n grande de Coconut Rice with Beans en el centro, rodeado de varios ingredientes y especias. El plato principal es una mezcla cremosa de frijoles negros, arroz blanco y vegetales en una salsa blanca, posiblemente de coco, con una cuchara de madera dentro. Alrededor del taz\u00f3n central, hay varios tazones peque\u00f1os que contienen ingredientes como frijoles cocidos, arroz blanco, especias en polvo y l\u00edquidos amarillos, probablemente leche o caldo de coco."
+    },
+    {
+        "id": 59,
+        "name": "Baked Cod with Tomato and Olive",
+        "cuisine": "Mediterranean",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Cod fillets",
+            "Tomatoes, chopped",
+            "Olives, sliced",
+            "Garlic, minced",
+            "Olive oil",
+            "Parsley"
+        ],
+        "directions": [
+            "Place cod in baking dish; top with tomatoes, olives, and garlic.",
+            "Drizzle with olive oil; bake at 200\u00b0C (400\u00b0F) for 12-15 minutes.",
+            "Garnish with parsley."
+        ],
+        "image_description": "El plato luce un filete de pescado blanco, posiblemente bacalao, cubierto con una mezcla de tomates picados, aceitunas y hierbas frescas, rodeado de tomates cherry, dientes de ajo y aceitunas en un caldo de aceite de oliva. La presentaci\u00f3n es apetitosa y colorida, con un contraste entre el blanco del pescado y los rojos y verdes de los ingredientes que lo acompa\u00f1an. El plato est\u00e1 decorado con perejil fresco y hierbas, lo que a\u00f1ade un toque de frescura y color."
+    },
+    {
+        "id": 60,
+        "name": "Seared Tuna Ni\u00e7oise",
+        "cuisine": "French",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Tuna steak",
+            "Olives",
+            "Green beans",
+            "Potatoes, boiled",
+            "Eggs, hard-boiled",
+            "Lemon vinaigrette"
+        ],
+        "directions": [
+            "Sear tuna to desired doneness.",
+            "Boil beans and potatoes; assemble with eggs and olives.",
+            "Dress with lemon vinaigrette."
+        ],
+        "image_description": "La imagen muestra un plato de Seared Tuna Ni\u00e7oise con at\u00fan a la parrilla de color rosa intenso en el centro, rodeado de jud\u00edas verdes, patatas amarillas, huevos duros y aceitunas verdes, todo presentado en un plato redondo beige con cubiertos a los lados."
+    },
+    {
+        "id": 61,
+        "name": "Harissa Chickpea Bowl",
+        "cuisine": "Moroccan",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Chickpeas",
+            "Quinoa or rice",
+            "Harissa paste",
+            "Lemon yogurt sauce",
+            "Cucumber, tomato, herbs"
+        ],
+        "directions": [
+            "Roast chickpeas with harissa 15-20 minutes.",
+            "Serve over quinoa with fresh vegetables and lemon yogurt sauce."
+        ],
+        "image_description": "El plato est\u00e1 decorado con garbanzos en salsa de harissa, tomate, pepino en rodajas y una salsa blanca cremosa sobre una base de couscous blanco. La presentaci\u00f3n es colorida y apetitosa, con ingredientes dispuestos de manera armoniosa. El plato est\u00e1 adornado con hierbas frescas picadas."
+    },
+    {
+        "id": 62,
+        "name": "Salmon with Dill and Mustard Glaze",
+        "cuisine": "Nordic",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "12 mins",
+        "total_time": "22 mins",
+        "ingredients": [
+            "Salmon fillets",
+            "Dijon mustard",
+            "Dill, chopped",
+            "Honey",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Mix glaze with mustard, dill, and honey.",
+            "Brush on salmon; bake or pan-sear until flaky."
+        ],
+        "image_description": "Dos filetes de salm\u00f3n cocidos se presentan en una bandeja oscura, con una ligera capa de glaseado dorado y mostaza visible en la superficie, decorados con ramitas de eneldo fresco. La carne del salm\u00f3n muestra un vibrante color rosa-anaranjado y est\u00e1 acompa\u00f1ada de gotas de aceite y sal esparcidas alrededor en la bandeja."
+    },
+    {
+        "id": 63,
+        "name": "Butter Lettuce Salad with Avocado",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "0 mins",
+        "total_time": "10 mins",
+        "ingredients": [
+            "Butter lettuce",
+            "Avocado slices",
+            "Cherry tomatoes",
+            "Lemon vinaigrette"
+        ],
+        "directions": [
+            "Toss greens with avocado and tomatoes.",
+            "Drizzle with vinaigrette and serve."
+        ],
+        "image_description": "La imagen muestra una ensalada de lechuga mantecosa con aguacate en un taz\u00f3n blanco con borde marr\u00f3n. La ensalada est\u00e1 compuesta por hojas de lechuga verdes claras, tomates cherry rojos cortados por la mitad y trozos de aguacate verde claro, todo mezclado y sazonado con pimienta."
+    },
+    {
+        "id": 64,
+        "name": "Eggplant Caponata",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "25 mins",
+        "total_time": "45 mins",
+        "ingredients": [
+            "Eggplant, diced",
+            "Celery, chopped",
+            "Tomatoes, chopped",
+            "Olives, chopped",
+            "Capers",
+            "Vinegar and sugar"
+        ],
+        "directions": [
+            "Saut\u00e9 eggplant until soft.",
+            "Add vegetables and simmer with vinegar and sugar until thick.",
+            "Serve warm or at room temperature."
+        ],
+        "image_description": "La imagen muestra un taz\u00f3n de Eggplant Caponata, una mezcla vibrante de berenjenas doradas, tomates rojos, apio y aceitunas verdes, todo unido en una salsa oscura. El plato se presenta en un taz\u00f3n cer\u00e1mico con un borde marr\u00f3n y se acompa\u00f1a de una cuchara de madera y guarniciones frescas como tomates cherry y perejil."
+    },
+    {
+        "id": 65,
+        "name": "Avocado Toast with Poached Egg",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "5 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "Bread slices",
+            "Ripe avocado",
+            "Eggs",
+            "Lemon juice",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Toast bread; mash avocado with lemon, salt, and pepper.",
+            "Poach eggs; place on toast and serve."
+        ],
+        "image_description": "Tostada dorada cubierta con pur\u00e9 de aguacate cremoso, dos huevos pochados con yema l\u00edquida y rodajas de aguacate fresco encima. La presentaci\u00f3n incluye lim\u00f3n en la orilla del plato y est\u00e1 decorada con pimienta y sal. Rodeando el plato hay aguacates crudos y aceite de oliva."
+    },
+    {
+        "id": 66,
+        "name": "Herbed Tomato Soup",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "25 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Tomatoes, chopped",
+            "Onion",
+            "Garlic",
+            "Herbs (basil, thyme)",
+            "Vegetable broth",
+            "Cream or milk"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add tomatoes and broth.",
+            "Simmer 20 minutes; blend until smooth.",
+            "Stir in cream and herbs; season and serve."
+        ],
+        "image_description": "La imagen muestra una vibrante sopa de tomate con hierbas en un taz\u00f3n negro, con un color rojo intenso y una textura suave. Est\u00e1 decorada con tomates cherry en rodajas, una espiral de crema, hojas de albahaca y ramitas de tomillo, creando una presentaci\u00f3n apetitosa y fresca."
+    },
+    {
+        "id": 67,
+        "name": "Pesto Gnocchi with Cherry Tomatoes",
+        "cuisine": "Italian",
+        "servings": 3,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Gnocchi",
+            "Pesto",
+            "Cherry tomatoes",
+            "Parmesan"
+        ],
+        "directions": [
+            "Boil gnocchi until floating; drain.",
+            "Toss with pesto and halved tomatoes; top with parmesan."
+        ],
+        "image_description": "El plato luce una presentaci\u00f3n apetitosa y colorida, con gnocchis cubiertos en una vibrante salsa de pesto verde y adornados con tomates cherry rojos partidos y hojas de albahaca fresca. La combinaci\u00f3n de colores y texturas, junto con el queso rallado espolvoreado encima, crea un contraste visual atractivo. Todo est\u00e1 servido en un plato blanco con borde marr\u00f3n, a\u00f1adiendo un toque r\u00fastico a la presentaci\u00f3n."
+    },
+    {
+        "id": 68,
+        "name": "Paneer Butter Fry",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Paneer cubes",
+            "Butter",
+            "Onion",
+            "Tomato paste",
+            "Cream",
+            "Spices"
+        ],
+        "directions": [
+            "Saut\u00e9 onion in butter; add paneer and brown.",
+            "Add tomato paste and spices; simmer with a splash of cream."
+        ],
+        "image_description": "El plato luce un vibrante color rojo-anaranjado, con dados de paneer dorados y ligeramente chamuscados, acompa\u00f1ados de cebolla y tomate parcialmente cocidos. Est\u00e1 decorado con una porci\u00f3n de mantequilla en el centro y especias encima. Todo est\u00e1 servido en un taz\u00f3n de cer\u00e1mica oscura."
+    },
+    {
+        "id": 69,
+        "name": "Lemon Garlic Roasted Brussels Sprouts",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "25 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Brussels sprouts",
+            "Olive oil",
+            "Garlic",
+            "Lemon zest",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Toss sprouts with oil, garlic, salt, and pepper.",
+            "Roast at 200\u00b0C (400\u00b0F) for 20-25 minutes; finish with lemon zest."
+        ],
+        "image_description": "La imagen muestra un plato de coles de Bruselas asadas con ajo y lim\u00f3n. Las coles de Bruselas est\u00e1n cocidas y tienen un color verde intenso con algunas partes doradas. El plato est\u00e1 decorado con rodajas de lim\u00f3n y dientes de ajo, y est\u00e1 espolvoreado con sal y pimienta."
+    },
+    {
+        "id": 70,
+        "name": "Paneer Tarsi with Spinach",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "Paneer cubes",
+            "Spinach",
+            "Onion",
+            "Tomato",
+            "Garam masala"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and tomato; add spices.",
+            "Stir in spinach until wilted; add paneer and simmer briefly."
+        ],
+        "image_description": "El plato \"Paneer Tarsi with Spinach\" se presenta en una sart\u00e9n con una combinaci\u00f3n armoniosa de colores y texturas. Los cubos de paneer, de un blanco cremoso, se distribuyen sobre una cama de espinacas verdes brillantes, acompa\u00f1ados de tomates cherry rojos y aros de cebolla blancos, creando un contraste visual atractivo. La presentaci\u00f3n es fresca y vibrante, con ingredientes dispuestos de manera que resaltan su color y textura."
+    },
+    {
+        "id": 71,
+        "name": "Rendang Beef",
+        "cuisine": "Indonesian",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "2 hours",
+        "total_time": "2 hours 20 mins",
+        "ingredients": [
+            "Beef chunks",
+            "Coconut milk",
+            "Rendang paste",
+            "Lemongrass",
+            "Galangal",
+            "Bay leaf"
+        ],
+        "directions": [
+            "Simmer beef with coconut milk and rendang paste with aromatics until tender and thickened."
+        ],
+        "image_description": "El Rendang Beef se presenta en un taz\u00f3n de cer\u00e1mica marr\u00f3n, con trozos de carne de ternera en una salsa espesa y oscura de color marr\u00f3n rojizo, decorado con hojas verdes frescas. La salsa tiene una textura rica y brillante. Alrededor del taz\u00f3n, se ven varios ingredientes en peque\u00f1os tazones de cer\u00e1mica, como especias, hierbas y condimentos."
+    },
+    {
+        "id": 72,
+        "name": "Chili Con Carne",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "40 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "Ground beef",
+            "Chili powder",
+            "Tomato sauce",
+            "Kidney beans",
+            "Onion, garlic",
+            "Cumin"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add beef and brown.",
+            "Add spices, tomato sauce, and beans; simmer 25-30 minutes."
+        ],
+        "image_description": "El Chili Con Carne se presenta en una sart\u00e9n con un color rojizo intenso debido a la salsa de tomate y especias, y contiene trozos visibles de carne molida y pimientos rojos, decorado con hojas verdes en el centro. La textura parece espesa y con trozos s\u00f3lidos bien distribuidos. Est\u00e1 rodeado de ingredientes como frijoles rojos cocidos, cebolla y varios condimentos."
+    },
+    {
+        "id": 73,
+        "name": "Persian Jeweled Rice",
+        "cuisine": "Persian",
+        "servings": 4,
+        "prep_time": "30 mins",
+        "cook_time": "25 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "Basmati rice",
+            "Saffron",
+            "Barberries",
+            "Almonds",
+            "Raisins",
+            "Butter"
+        ],
+        "directions": [
+            "Cook rice; mix with saffron and jeweled mix of nuts and dried fruits.",
+            "Fluff and serve."
+        ],
+        "image_description": "El plato principal es un arroz con azafr\u00e1n adornado con frutos secos, incluyendo pasas y almendras, presentado en un plato decorativo con un borde dorado y motivos florales. El arroz tiene un color amarillo vibrante y est\u00e1 espolvoreado con ingredientes de colores variados. La presentaci\u00f3n es elegante y festiva, con una cuchara dorada al lado."
+    },
+    {
+        "id": 74,
+        "name": "Moroccan Lentil Soup (Harira)",
+        "cuisine": "Moroccan",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "30 mins",
+        "total_time": "45 mins",
+        "ingredients": [
+            "Lentils",
+            "Tomato paste",
+            "Chickpeas",
+            "Coriander",
+            "Cumin",
+            "Lemon juice"
+        ],
+        "directions": [
+            "Saut\u00e9 onions, garlic; add tomato paste and spices.",
+            "Add lentils and chickpeas with water; simmer until tender.",
+            "Finish with lemon juice and herbs."
+        ],
+        "image_description": "La imagen muestra una vibrante sopa de lentejas marroqu\u00ed (Harira), presentada en un taz\u00f3n grande y oscuro con una textura espesa y abundante. La sopa tiene un color rojizo-anaranjado intenso, decorada con tomates cherry cortados por la mitad, cebolla y perejil fresco. Alrededor del taz\u00f3n, se ven los ingredientes clave, incluyendo lentejas, especias y hierbas frescas."
+    },
+    {
+        "id": 75,
+        "name": "Thai Red Curry with Chicken",
+        "cuisine": "Thai",
+        "servings": 3,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Red curry paste",
+            "Coconut milk",
+            "Chicken pieces",
+            "Bell peppers",
+            "Basil",
+            "Fish sauce"
+        ],
+        "directions": [
+            "Saut\u00e9 curry paste in oil; add chicken to sear.",
+            "Pour in coconut milk; add vegetables and simmer until cooked.",
+            "Finish with basil and fish sauce."
+        ],
+        "image_description": "El Thai Red Curry with Chicken se presenta en un taz\u00f3n con una vibrante salsa roja y trozos de pollo cocido, acompa\u00f1ado de pimientos rojos y verdes, albahaca fresca y otros vegetales en una salsa espesa y cremosa. La presentaci\u00f3n es generosa, con ingredientes visibles y bien distribuidos. El plato est\u00e1 decorado con hojas de albahaca fresca encima."
+    },
+    {
+        "id": 76,
+        "name": "Pasta Arrabbiata",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Pasta",
+            "Tomato sauce",
+            "Garlic, chili flakes",
+            "Olive oil",
+            "Parsley"
+        ],
+        "directions": [
+            "Cook pasta until al dente.",
+            "Saut\u00e9 garlic and chili in olive oil; add tomato sauce.",
+            "Toss with pasta and garnish with parsley."
+        ],
+        "image_description": "La imagen muestra un plato de Pasta Arrabbiata con penne cubiertos en una salsa roja vibrante, decorado con tomates cherry a medio cortar, perejil fresco y guindillas rojas. La pasta se presenta en un plato de cer\u00e1mica marr\u00f3n oscuro, con una servilleta gris debajo y un tenedor al lado. La composici\u00f3n incluye ingredientes adicionales alrededor del plato, como dientes de ajo, pimienta y perejil fresco."
+    },
+    {
+        "id": 77,
+        "name": "Cranberry Walnut Salad",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "0 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "Mixed greens",
+            "Cranberries",
+            "Walnuts",
+            "Feta or goat cheese",
+            "Balsamic vinaigrette"
+        ],
+        "directions": [
+            "Toss greens with cranberries, walnuts, and cheese.",
+            "Drizzle with vinaigrette."
+        ],
+        "image_description": "La imagen muestra una ensalada de ar\u00fagula con ar\u00e1ndanos rojos, nueces y queso feta, presentada en un taz\u00f3n de cer\u00e1mica beige sobre una superficie gris oscura. La ensalada est\u00e1 adornada con trozos de nueces y queso desmenuzado, y se ve acompa\u00f1ada de recipientes con aderezos y una cuchara de madera."
+    },
+    {
+        "id": 78,
+        "name": "Corn Chowder",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Corn kernels",
+            "Potatoes",
+            "Onion",
+            "Milk or cream",
+            "Butter",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Saut\u00e9 onion in butter; add potatoes and corn.",
+            "Add milk and simmer until thickened; season."
+        ],
+        "image_description": "El Corn Chowder se presenta en un taz\u00f3n con una base cremosa de color amarillo claro y trozos de ma\u00edz y patatas. Est\u00e1 decorado con trozos de cebolla o cebolleta picada. La imagen muestra los ingredientes alrededor del taz\u00f3n, incluyendo mazorcas de ma\u00edz, patatas, cebolla y una cuchara."
+    },
+    {
+        "id": 79,
+        "name": "Eggplant Yakitori Skewers",
+        "cuisine": "Japanese",
+        "servings": 4,
+        "prep_time": "25 mins",
+        "cook_time": "12 mins",
+        "total_time": "37 mins",
+        "ingredients": [
+            "Eggplant sticks",
+            "Soy glaze: soy sauce, sugar, mirin",
+            "Sesame seeds"
+        ],
+        "directions": [
+            "Skewer eggplant chunks; brush with glaze.",
+            "Grill until tender; garnish with sesame seeds."
+        ],
+        "image_description": "La imagen muestra brochetas de berenjena a la parrilla, glaseadas con salsa oscura y espolvoreadas con semillas de s\u00e9samo, presentadas en un plato blanco con bordes marrones. Las berenjenas tienen un color morado intenso y una textura ligeramente caramelizada."
+    },
+    {
+        "id": 80,
+        "name": "Chana Masala",
+        "cuisine": "Indian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Chickpeas",
+            "Onion",
+            "Tomatoes",
+            "Garlic",
+            "Garam masala",
+            "Cumin",
+            "Coriander"
+        ],
+        "directions": [
+            "Saut\u00e9 onion and garlic; add spices.",
+            "Add tomatoes and chickpeas; simmer 15-20 minutes."
+        ],
+        "image_description": "El Chana Masala se presenta en un taz\u00f3n grande y poco profundo, con garbanzos cocidos en una salsa de tomate de color rojo oscuro y decorado con rodajas de tomate y cebolla, adem\u00e1s de cilantro fresco. La textura del plato es suave y cremosa, con los garbanzos integrados en la salsa. El plato est\u00e1 rodeado de varios ingredientes y especias que se utilizan en su preparaci\u00f3n, como tomates crudos, cebolla, ajo y diversas especias en polvo."
+    },
+    {
+        "id": 81,
+        "name": "Buttermilk Pancakes",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Flour",
+            "Buttermilk",
+            "Egg",
+            "Baking powder",
+            "Sugar"
+        ],
+        "directions": [
+            "Mix dry ingredients; whisk in wet ingredients until smooth.",
+            "Cook on a hot skillet until bubbles form; flip and cook through."
+        ],
+        "image_description": "Los pancakes son dorados y brillantes, con una textura suave y esponjosa. Est\u00e1n apilados en una sart\u00e9n con huevos pochados encima y jarabe de arce alrededor, creando una presentaci\u00f3n apetitosa."
+    },
+    {
+        "id": 82,
+        "name": "Mango Lassi",
+        "cuisine": "Indian",
+        "servings": 2,
+        "prep_time": "5 mins",
+        "cook_time": "0 mins",
+        "total_time": "5 mins",
+        "ingredients": [
+            "Mango pulp",
+            "Plain yogurt",
+            "Sugar",
+            "Cardamom (optional)"
+        ],
+        "directions": [
+            "Blend all ingredients until smooth.",
+            "Chill and serve."
+        ],
+        "image_description": "El Mango Lassi se presenta en un vaso transparente con una textura cremosa y un color blanco con tonos amarillos en la parte superior. Est\u00e1 decorado con especias espolvoreadas sobre su superficie. A su alrededor, se ven ingredientes como mango cortado en cubos, az\u00facar y otros condimentos."
+    },
+    {
+        "id": 83,
+        "name": "Pesto Pasta with Sun-Dried Tomatoes",
+        "cuisine": "Italian",
+        "servings": 3,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Pasta",
+            "Pesto",
+            "Sun-dried tomatoes",
+            "Parmesan"
+        ],
+        "directions": [
+            "Cook pasta; drain.",
+            "Toss with pesto and sun-dried tomatoes; top with parmesan."
+        ],
+        "image_description": "La imagen muestra un plato de pasta con pesto y tomates secos, rodeado de ingredientes frescos y especias. La pasta es de color amarillo claro y est\u00e1 cubierta con una salsa verde vibrante, tomates secos rojos y queso rallado blanco. Alrededor del plato hay varios ingredientes, como tomates frescos, queso y especias, que complementan el plato principal."
+    },
+    {
+        "id": 84,
+        "name": "Salisbury Steak with Mushroom Gravy",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Ground beef",
+            "Mushrooms",
+            "Onion",
+            "Beef broth",
+            "Flour",
+            "Butter"
+        ],
+        "directions": [
+            "Form patties and brown in a pan; set aside.",
+            "Make gravy with mushrooms, onion, flour, and broth; return patties to pan and simmer."
+        ],
+        "image_description": "La imagen muestra un plato de Salisbury Steak with Mushroom Gravy, con una hamburguesa de carne oscura en el centro, cubierta con champi\u00f1ones salteados y una salsa marr\u00f3n. Est\u00e1 acompa\u00f1ada de arroz blanco, cebolla en espiral y mantequilla, todo presentado en un plato marr\u00f3n oscuro con un borde negro sobre un fondo marr\u00f3n oscuro."
+    },
+    {
+        "id": 85,
+        "name": "Simple Garlic Herb Salmon",
+        "cuisine": "American",
+        "servings": 2,
+        "prep_time": "5 mins",
+        "cook_time": "10 mins",
+        "total_time": "15 mins",
+        "ingredients": [
+            "Salmon fillets",
+            "Garlic, minced",
+            "Herbs (dill or parsley)",
+            "Lemon juice",
+            "Olive oil"
+        ],
+        "directions": [
+            "Season salmon; sear in a pan with garlic and herbs.",
+            "Finish with lemon juice and serve."
+        ],
+        "image_description": "La imagen muestra un delicioso salm\u00f3n al ajo y hierbas, presentado en una sart\u00e9n de hierro fundido con un toque r\u00fastico. Los filetes de salm\u00f3n, de un vibrante color naranja, est\u00e1n adornados con hierbas frescas y ajo, y se ba\u00f1an en un delicioso l\u00edquido dorado. La sart\u00e9n est\u00e1 rodeada de ingredientes adicionales, como lim\u00f3n, dientes de ajo y hierbas frescas, que complementan perfectamente el plato principal."
+    },
+    {
+        "id": 86,
+        "name": "Gnocchi with Sage Butter",
+        "cuisine": "Italian",
+        "servings": 2,
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "total_time": "20 mins",
+        "ingredients": [
+            "Store-bought gnocchi",
+            "Butter",
+            "Fresh sage leaves",
+            "Parmesan"
+        ],
+        "directions": [
+            "Cook gnocchi until floating.",
+            "Brown butter with sage; toss with gnocchi and parmesan."
+        ],
+        "image_description": "El plato principal es una deliciosa presentaci\u00f3n de gnocchi con mantequilla de salvia. Los gnocchi son de un color dorado claro y est\u00e1n cubiertos con queso rallado y hojas de salvia frescas, creando un contraste visual atractivo. La presentaci\u00f3n es elegante y apetitosa, con los ingredientes dispuestos art\u00edsticamente alrededor del plato principal."
+    },
+    {
+        "id": 87,
+        "name": "Shredded Beef Tostadas",
+        "cuisine": "Mexican",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "2 hours",
+        "total_time": "2 hours 20 mins",
+        "ingredients": [
+            "Beef chuck, slow-cooked and shredded",
+            "Tostada shells",
+            "Lettuce, tomato, cheese",
+            "Sour cream",
+            "Salsa"
+        ],
+        "directions": [
+            "Slow-cook beef with spices until tender; shred.",
+            "Top tostadas with beef and toppings."
+        ],
+        "image_description": "La imagen muestra cuatro tostadas de carne deshebrada dispuestas en un plato negro, con tortillas doradas cubiertas de carne oscura, salsa roja, lechuga, tomate picado y crema blanca, acompa\u00f1adas de rodajas de lim\u00f3n. El plato est\u00e1 rodeado de ingredientes adicionales como salsa, queso rallado y especias, creando una presentaci\u00f3n apetitosa y colorida."
+    },
+    {
+        "id": 88,
+        "name": "Chili Lime Grilled Corn",
+        "cuisine": "Mexican",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Corn on the cob",
+            "Butter",
+            "Chili powder",
+            "Lime juice",
+            "Salt"
+        ],
+        "directions": [
+            "Grill corn until charred; brush with butter.",
+            "Sprinkle chili powder and drizzle lime juice; season."
+        ],
+        "image_description": "Cuatro mazorcas de ma\u00edz a la parrilla se presentan en una bandeja negra, con marcas de carbonizaci\u00f3n y decoradas con rodajas de lima, granos de ma\u00edz y pimiento rojo picado. Est\u00e1n acompa\u00f1adas de tazones con especias y guarniciones como limas cortadas y chiles."
+    },
+    {
+        "id": 89,
+        "name": "Herbed Rice with Peas",
+        "cuisine": "Indian/Global",
+        "servings": 4,
+        "prep_time": "10 mins",
+        "cook_time": "15 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Basmati rice",
+            "Frozen peas",
+            "Spinach or cilantro",
+            "Butter or ghee"
+        ],
+        "directions": [
+            "Cook rice with peas; stir in greens and butter."
+        ],
+        "image_description": "El plato principal es un taz\u00f3n grande que contiene arroz blanco con guisantes verdes y hierbas frescas picadas, presentado de manera atractiva y apetitosa. El arroz y los guisantes est\u00e1n bien mezclados, creando un contraste de colores entre el blanco del arroz y el verde de los guisantes y las hierbas. Alrededor del taz\u00f3n principal, se ven varios ingredientes y condimentos dispuestos art\u00edsticamente, como m\u00e1s guisantes, cebolla, aceite, sal y especias."
+    },
+    {
+        "id": 90,
+        "name": "Gulai Ayam (Indonesian Curry Chicken)",
+        "cuisine": "Indonesian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Chicken pieces",
+            "Gulai curry paste",
+            "Coconut milk",
+            "Vegetables (potatoes, carrots)"
+        ],
+        "directions": [
+            "Saut\u00e9 curry paste; add chicken and coconut milk.",
+            "Simmer with vegetables until cooked."
+        ],
+        "image_description": "El plato de Gulai Ayam (curry de pollo indonesio) se presenta en un taz\u00f3n de color marr\u00f3n oscuro con asas doradas, lleno de trozos de pollo en una salsa amarilla-anaranjada junto con diversas verduras como zanahorias, papas, jud\u00edas verdes y guisantes. La salsa tiene una textura suave y brillante, y est\u00e1 decorada con hierbas frescas picadas. El taz\u00f3n reposa sobre una tabla circular de madera sobre una superficie de madera oscura."
+    },
+    {
+        "id": 91,
+        "name": "Spicy Peanut Noodles",
+        "cuisine": "Thai/Chinese Fusion",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "Rice noodles",
+            "Peanut butter",
+            "Soy sauce",
+            "Rice vinegar",
+            "Chili sauce",
+            "Garlic"
+        ],
+        "directions": [
+            "Cook noodles; whisk sauce with peanut butter.",
+            "Toss noodles with sauce and sesame seeds."
+        ],
+        "image_description": "El plato principal presenta unos fideos ba\u00f1ados en una salsa de color marr\u00f3n rojizo, adornados con cacahuetes, semillas de s\u00e9samo, cebolla de verdeo y pimientos rojos. La presentaci\u00f3n es colorida y apetitosa, con una distribuci\u00f3n armoniosa de los ingredientes. El taz\u00f3n tiene un dise\u00f1o azul y marr\u00f3n que contrasta con los colores vibrantes de los ingredientes."
+    },
+    {
+        "id": 92,
+        "name": "Herbed Quiche",
+        "cuisine": "French",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "40 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "Pie crust",
+            "Eggs",
+            "Cream",
+            "Cheese",
+            "Herbs",
+            "Vegetables (optional)"
+        ],
+        "directions": [
+            "Whisk eggs with cream and herbs.",
+            "Fill crust with cheese and vegetables; pour mixture and bake until set."
+        ],
+        "image_description": "La imagen muestra una deliciosa quiche de hierbas presentada en un molde para tartas con borde ondulado, cortada en ocho porciones iguales. La quiche tiene una corteza dorada y un relleno amarillo p\u00e1lido con trozos visibles de verduras y hierbas, huevos y queso."
+    },
+    {
+        "id": 93,
+        "name": "Baked Ziti",
+        "cuisine": "Italian",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Pasta",
+            "Tomato sauce",
+            "Ground beef or sausage",
+            "Mozzarella cheese",
+            "Parmesan"
+        ],
+        "directions": [
+            "Cook pasta; mix with sauce and meat.",
+            "Top with cheese and bake until bubbly."
+        ],
+        "image_description": "La imagen muestra un plato de Baked Ziti con rigatoni cubierto de salsa roja y queso derretido. El plato est\u00e1 decorado con tomates frescos y una guarnici\u00f3n de salsa adicional en un taz\u00f3n peque\u00f1o."
+    },
+    {
+        "id": 94,
+        "name": "Herbed Shrimp and Grits",
+        "cuisine": "American",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Shrimp",
+            "Grits",
+            "Butter",
+            "Garlic",
+            "Lemon",
+            "Parsley"
+        ],
+        "directions": [
+            "Prepare grits as per package instructions with butter.",
+            "Saut\u00e9 shrimp with garlic; stir in lemon and parsley.",
+            "Serve shrimp over grits."
+        ],
+        "image_description": "El plato presenta una base de gachas de ma\u00edz cremosas y blancas, cubiertas con camarones rosados cocidos en una salsa ligera y brillante, y decoradas con perejil fresco y dientes de ajo. La presentaci\u00f3n es apetitosa y fresca, con una guarnici\u00f3n de perejil y un toque de pimienta negra. El plato est\u00e1 servido en un taz\u00f3n blanco y acompa\u00f1ado de un peque\u00f1o taz\u00f3n con salsa verde y un lim\u00f3n cortado."
+    },
+    {
+        "id": 95,
+        "name": "Duck Confit (Simple Version)",
+        "cuisine": "French",
+        "servings": 2,
+        "prep_time": "20 mins",
+        "cook_time": "1 hour",
+        "total_time": "1 hour 20 mins",
+        "ingredients": [
+            "Duck legs confit (or duck legs and fat)",
+            "Garlic, thyme",
+            "Salt and pepper"
+        ],
+        "directions": [
+            "Crisp duck skin in a hot skillet; finish in oven until skin is golden and meat is tender."
+        ],
+        "image_description": "La imagen muestra dos piernas de pato confit doradas y brillantes, cocidas en una sart\u00e9n con ajo y hierbas, rodeadas de especias y condimentos. La presentaci\u00f3n es apetitosa y tradicional, con un tenedor al lado, lo que sugiere que est\u00e1 lista para ser servida."
+    },
+    {
+        "id": 96,
+        "name": "Lemon Olive Oil Cake",
+        "cuisine": "Mediterranean",
+        "servings": 8,
+        "prep_time": "15 mins",
+        "cook_time": "40 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Lemon zest",
+            "Olive oil",
+            "Eggs",
+            "Baking powder",
+            "Milk"
+        ],
+        "directions": [
+            "Mix ingredients; bake in loaf pan until a toothpick comes out clean."
+        ],
+        "image_description": "La imagen muestra un delicioso Lemon Olive Oil Cake, presentado en un molde rectangular con una rebanada extra\u00edda, revelando su interior amarillo brillante y textura suave. La superficie del pastel luce dorada y est\u00e1 decorada con hierbas frescas, mientras que a su alrededor se ven ingredientes clave como limones frescos, aceite de oliva y az\u00facar, que complementan su atractivo visual."
+    },
+    {
+        "id": 97,
+        "name": "Salsa Verde Chicken Tajine",
+        "cuisine": "Moroccan",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "45 mins",
+        "total_time": "1 hour",
+        "ingredients": [
+            "Chicken pieces",
+            "Salsa verde",
+            "Chickpeas",
+            "Potatoes",
+            "Olives"
+        ],
+        "directions": [
+            "Combine ingredients in a tajine or pot; simmer until chicken is cooked and flavors meld."
+        ],
+        "image_description": "El plato presentado es un Salsa Verde Chicken Tajine, un estofado marroqu\u00ed caracterizado por su rica combinaci\u00f3n de sabores y colores. Visualmente, destaca por su vibrante mezcla de ingredientes: muslos de pollo dorados, papas, zanahorias, garbanzos, aceitunas verdes y negras, y pimientos rojos, todo ello cocido en una salsa verde espesa y arom\u00e1tica. El plato se sirve en una tradicional tajine de barro con asas, a\u00f1adiendo un toque aut\u00e9ntico a la presentaci\u00f3n."
+    },
+    {
+        "id": 98,
+        "name": "Coconut Lime Chicken",
+        "cuisine": "Thai/Caribbean Fusion",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "20 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "Chicken thighs",
+            "Coconut milk",
+            "Lime juice",
+            "Garlic",
+            "Thai curry paste"
+        ],
+        "directions": [
+            "Saut\u00e9 garlic and curry paste; add chicken and coconut milk.",
+            "Simmer until chicken is cooked; finish with lime juice."
+        ],
+        "image_description": "El plato de Coconut Lime Chicken presenta un caldo amarillo intenso con trozos de pollo, decorado con rodajas de lima, guarniciones de cilantro y chiles rojos en rodajas. La salsa tiene una textura suave y cremosa, y el pollo parece estar cocido y tierno. La presentaci\u00f3n es fresca y colorida, con ingredientes adicionales alrededor del taz\u00f3n que complementan el plato."
+    },
+    {
+        "id": 99,
+        "name": "Spinach and Feta Stuffed Peppers",
+        "cuisine": "Mediterranean",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "Bell peppers",
+            "Spinach",
+            "Feta cheese",
+            "Rice or quinoa",
+            "Tomato sauce"
+        ],
+        "directions": [
+            "Cook filling with spinach and feta; stuff peppers.",
+            "Bake in sauce until peppers tender."
+        ],
+        "image_description": "Pimientos amarillos y verdes rellenos de una mezcla de arroz y espinacas, coronados con queso feta dorado y decorados con hojas de albahaca fresca. Presentados en una sart\u00e9n oscura sobre una capa de salsa roja. La disposici\u00f3n resalta los colores vibrantes de los pimientos y el contraste entre el relleno cremoso y la salsa intensa."
+    },
+    {
+        "id": 100,
+        "name": "Gado-Gado (Indonesian Peanut Salad)",
+        "cuisine": "Indonesian",
+        "servings": 4,
+        "prep_time": "20 mins",
+        "cook_time": "10 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "Boiled vegetables (beans, cabbage, potato)",
+            "Hard-boiled eggs",
+            "Tofu or tempeh",
+            "Peanut sauce: peanuts, palm sugar, tamarind, lime"
+        ],
+        "directions": [
+            "Arrange vegetables, eggs, and tofu on a plate.",
+            "Drizzle with warm peanut sauce and serve."
+        ],
+        "image_description": "La imagen muestra un vibrante plato de Gado-Gado, una ensalada indonesia de verduras y cacahuetes. El plato presenta una variedad de ingredientes frescos y coloridos, como zanahorias ralladas, jud\u00edas verdes, tofu, garbanzos, pimientos rojos, repollo rallado, huevos duros y cacahuetes, todo ello mezclado con una salsa de cacahuete marr\u00f3n. La presentaci\u00f3n es visualmente atractiva, con los ingredientes dispuestos art\u00edsticamente en un plato azul-verdoso sobre una servilleta beige, rodeado de hojas verdes frescas y cacahuetes sueltos."
+    },
+    {
+        "id": 101,
+        "name": "Kung Pao Chicken",
+        "cuisine": "Chinese (Szechuan)",
+        "servings": 3,
+        "prep_time": "20 mins",
+        "cook_time": "10 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "500g chicken breast, cubed",
+            "1/2 cup roasted peanuts",
+            "3-4 dried red chilies",
+            "2 cloves garlic, minced",
+            "1 tablespoon ginger, minced",
+            "2 tablespoons soy sauce",
+            "1 tablespoon rice vinegar",
+            "1 teaspoon sugar",
+            "1 tablespoon cornstarch mixed with 1 tablespoon water",
+            "2 tablespoons vegetable oil"
+        ],
+        "directions": [
+            "In a small bowl, mix soy sauce, vinegar, and sugar to make the sauce.",
+            "Heat oil in a wok and stir-fry the chicken until cooked through; remove and set aside.",
+            "In the same wok, saut\u00e9 garlic, ginger, and dried chilies until fragrant.",
+            "Return chicken to the wok, add the peanuts and the sauce mixture.",
+            "Stir in the cornstarch slurry and cook until the sauce thickens and coats the chicken.",
+            "Serve hot with steamed rice."
+        ],
+        "image_description": "El plato luce una salsa oscura y brillante, con trozos de pollo dorados y vegetales como pimientos rojos y cebolla. Est\u00e1 presentado en un wok con los ingredientes alrededor. No hay guarniciones visibles."
+    },
+    {
+        "id": 102,
+        "name": "Mapo Tofu",
+        "cuisine": "Chinese (Szechuan)",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "400g soft tofu, cubed",
+            "100g ground pork or beef",
+            "2 tablespoons Doubanjiang (spicy bean paste)",
+            "1 tablespoon soy sauce",
+            "1 teaspoon Szechuan peppercorns, crushed",
+            "2 green onions, chopped",
+            "1 cup chicken broth",
+            "1 tablespoon cornstarch slurry"
+        ],
+        "directions": [
+            "Brown the ground meat in a wok over medium-high heat.",
+            "Add the spicy bean paste and peppercorns, stirring until fragrant and the oil turns red.",
+            "Pour in the chicken broth and soy sauce; bring to a simmer.",
+            "Gently add the tofu cubes and simmer for 5 minutes.",
+            "Stir in the cornstarch slurry to thicken the sauce.",
+            "Garnish with green onions and serve."
+        ],
+        "image_description": "El Mapo Tofu se presenta en una sart\u00e9n con una salsa marr\u00f3n rojiza intensa, cubos de tofu blanco y trozos de carne molida de color marr\u00f3n claro. Est\u00e1 decorado con cebolletas verdes picadas y tiene una textura espesa y jugosa. La presentaci\u00f3n es abundante y apetitosa, con una cuchara de madera sumergida en la salsa."
+    },
+    {
+        "id": 103,
+        "name": "Beef and Broccoli",
+        "cuisine": "Chinese (Cantonese)",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "300g flank steak, thinly sliced against the grain",
+            "2 cups broccoli florets",
+            "2 tablespoons oyster sauce",
+            "1 tablespoon soy sauce",
+            "1 tablespoon ginger, minced",
+            "1 tablespoon cornstarch",
+            "2 tablespoons vegetable oil"
+        ],
+        "directions": [
+            "Toss beef slices with cornstarch and a splash of soy sauce; let sit for 10 minutes.",
+            "Blanch broccoli in boiling water for 2 minutes, then drain.",
+            "Heat oil in a wok and sear beef at high heat until browned; remove.",
+            "Stir-fry ginger for 30 seconds, then add broccoli, oyster sauce, and soy sauce.",
+            "Return beef to the wok and toss everything together for 1 minute.",
+            "Serve immediately."
+        ],
+        "image_description": "La imagen muestra un plato de Beef and Broccoli con carne de ternera cocinada al punto, br\u00f3coli verde brillante y champi\u00f1ones salteados, todo ello presentado en una sart\u00e9n oscura con palillos chinos al lado. Rodeando la sart\u00e9n, se ven varios ingredientes y condimentos como salsa de ostras, jengibre picado y especias, con etiquetas que detallan las cantidades y descripciones de cada componente."
+    },
+    {
+        "id": 104,
+        "name": "General Tso's Chicken",
+        "cuisine": "Chinese-American",
+        "servings": 3,
+        "prep_time": "25 mins",
+        "cook_time": "15 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "500g chicken thighs, cut into bite-sized pieces",
+            "1/2 cup cornstarch (for coating)",
+            "1/4 cup soy sauce",
+            "2 tablespoons rice vinegar",
+            "2 tablespoons sugar",
+            "1 tablespoon ginger-garlic paste",
+            "Oil for deep frying",
+            "Dried red chilies to taste"
+        ],
+        "directions": [
+            "Coat chicken pieces thoroughly in cornstarch.",
+            "Deep fry chicken in hot oil until crispy and golden; drain on paper towels.",
+            "In a separate pan, saut\u00e9 ginger, garlic, and chilies.",
+            "Add soy sauce, vinegar, and sugar; simmer until the sugar dissolves.",
+            "Toss the crispy chicken into the sauce until fully coated.",
+            "Serve over white rice."
+        ],
+        "image_description": "El plato de General Tso's Chicken se presenta en un taz\u00f3n marr\u00f3n oscuro con bordes marrones claros, y contiene arroz blanco esponjoso y trozos de pollo fritos cubiertos en una salsa marr\u00f3n oscura y brillante, con trozos de jengibre y chiles rojos. El pollo est\u00e1 espolvoreado con semillas blancas, probablemente s\u00e9samo. El plato est\u00e1 decorado con chiles rojos adicionales sobre el arroz y el pollo."
+    },
+    {
+        "id": 105,
+        "name": "Pork Potstickers (Dumplings)",
+        "cuisine": "Chinese",
+        "servings": 4,
+        "prep_time": "40 mins",
+        "cook_time": "15 mins",
+        "total_time": "55 mins",
+        "ingredients": [
+            "20-25 dumpling wrappers",
+            "300g ground pork",
+            "1 cup cabbage, finely shredded",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sesame oil",
+            "1 teaspoon ginger, grated",
+            "2 tablespoons vegetable oil",
+            "1/4 cup water"
+        ],
+        "directions": [
+            "Mix pork, cabbage, soy sauce, sesame oil, and ginger in a bowl.",
+            "Place a teaspoon of filling in the center of a wrapper, moisten edges, and fold/pleat to seal.",
+            "Heat oil in a flat skillet and arrange dumplings in a single layer.",
+            "Fry for 2 minutes until bottoms are golden.",
+            "Pour in water and immediately cover with a lid to steam for 5-7 minutes.",
+            "Remove lid and cook until water evaporates and bottoms are crispy again."
+        ],
+        "image_description": "Los dumplings tienen una textura suave y est\u00e1n dorados en la parte superior, con bordes ligeramente m\u00e1s oscuros. Est\u00e1n dispuestos en una sart\u00e9n con salsa y semillas de s\u00e9samo, acompa\u00f1ados de un peque\u00f1o taz\u00f3n con salsa de soja y una cuchara de madera."
+    },
+    {
+        "id": 106,
+        "name": "Hot and Sour Soup",
+        "cuisine": "Chinese",
+        "servings": 4,
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "total_time": "30 mins",
+        "ingredients": [
+            "4 cups chicken or vegetable broth",
+            "1/2 cup tofu, cut into matchsticks",
+            "1/4 cup bamboo shoots, sliced",
+            "2 tablespoons soy sauce",
+            "1/4 cup rice vinegar",
+            "1 teaspoon white pepper",
+            "1 egg, beaten",
+            "2 tablespoons cornstarch slurry"
+        ],
+        "directions": [
+            "Bring broth to a boil in a large pot.",
+            "Add tofu, bamboo shoots, soy sauce, and white pepper.",
+            "Stir in the cornstarch slurry and simmer until thickened.",
+            "Slowly drizzle in the beaten egg while stirring gently to create ribbons.",
+            "Stir in the rice vinegar at the very end to preserve the 'sour' punch.",
+            "Garnish with green onions."
+        ],
+        "image_description": "La imagen muestra una ilustraci\u00f3n de Hot and Sour Soup en un taz\u00f3n grande, con un caldo marr\u00f3n claro, cubos de tofu blanco, brotes de bamb\u00fa y cebolla de verdeo picada. El plato est\u00e1 decorado con un huevo entero en el centro y presenta una textura suave y l\u00edquida con elementos s\u00f3lidos visibles."
+    },
+    {
+        "id": 107,
+        "name": "Chow Mein",
+        "cuisine": "Chinese",
+        "servings": 2,
+        "prep_time": "15 mins",
+        "cook_time": "10 mins",
+        "total_time": "25 mins",
+        "ingredients": [
+            "200g chow mein noodles",
+            "1 cup cabbage, sliced",
+            "1 carrot, julienned",
+            "2 tablespoons soy sauce",
+            "1 tablespoon oyster sauce",
+            "1 teaspoon sugar",
+            "2 tablespoons vegetable oil"
+        ],
+        "directions": [
+            "Boil noodles according to package instructions, drain, and set aside.",
+            "Heat oil in a wok and stir-fry cabbage and carrots for 3 minutes.",
+            "Add the noodles to the wok.",
+            "Mix soy sauce, oyster sauce, and sugar, then pour over the noodles.",
+            "Toss at high heat for 2-3 minutes until noodles are slightly charred and well coated.",
+            "Serve hot."
+        ],
+        "image_description": "El plato de Chow Mein presenta una mezcla vibrante de fideos y verduras salteadas, incluyendo zanahorias, br\u00f3coli, pimientos y repollo chino, todo ello con una textura suave y brillante. La presentaci\u00f3n es generosa y colorida, con los ingredientes distribuidos de manera uniforme sobre un plato blanco con bordes marrones. Dos tazones peque\u00f1os con salsas oscuras acompa\u00f1an el plato, a\u00f1adiendo un toque adicional a la presentaci\u00f3n."
+    },
+    {
+        "id": 108,
+        "name": "Wonton Soup",
+        "cuisine": "Chinese (Cantonese)",
+        "servings": 3,
+        "prep_time": "30 mins",
+        "cook_time": "10 mins",
+        "total_time": "40 mins",
+        "ingredients": [
+            "12-15 frozen or fresh wontons",
+            "4 cups chicken broth",
+            "1 tablespoon soy sauce",
+            "1/2 teaspoon sesame oil",
+            "1/2 cup bok choy leaves",
+            "Green onions for garnish"
+        ],
+        "directions": [
+            "Bring chicken broth and soy sauce to a boil in a pot.",
+            "Add the wontons and simmer for 5 minutes (or until they float).",
+            "Add bok choy and cook for 1 minute until wilted.",
+            "Turn off heat and stir in sesame oil.",
+            "Ladle into bowls and garnish with green onions."
+        ],
+        "image_description": "La imagen muestra tres tazones de Wonton Soup, con caldo transparente y wontones blancos, acompa\u00f1ados de cebolletas verdes. La presentaci\u00f3n incluye ingredientes adicionales como bok choy y especias en tazones peque\u00f1os alrededor de los tazones principales."
+    },
+    {
+        "id": 109,
+        "name": "Honey Walnut Shrimp",
+        "cuisine": "Chinese (Hong Kong Style)",
+        "servings": 3,
+        "prep_time": "20 mins",
+        "cook_time": "15 mins",
+        "total_time": "35 mins",
+        "ingredients": [
+            "500g large shrimp, peeled and deveined",
+            "1/2 cup cornstarch",
+            "2 eggs, beaten",
+            "1/4 cup mayonnaise",
+            "1 tablespoon honey",
+            "1 tablespoon condensed milk",
+            "1/2 cup candied walnuts",
+            "Oil for frying"
+        ],
+        "directions": [
+            "Dip shrimp in egg, then coat with cornstarch.",
+            "Fry shrimp in hot oil until golden and crispy; drain.",
+            "In a large bowl, whisk together mayonnaise, honey, and condensed milk.",
+            "Toss the warm shrimp and candied walnuts into the sauce until evenly coated.",
+            "Serve immediately, usually garnished with steamed broccoli."
+        ],
+        "image_description": "La imagen muestra un plato de Honey Walnut Shrimp, con camarones grandes y rosados cubiertos en una salsa cremosa amarillenta. El plato est\u00e1 decorado con br\u00f3coli verde, nueces marrones y huevos de codorniz blancos, creando un contraste visual atractivo en una fuente azul con borde marr\u00f3n."
+    }
+]
