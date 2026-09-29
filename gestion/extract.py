@@ -39,8 +39,8 @@ with open(output_path, "r", encoding="utf-8") as file:
     data = file.read()
 
 restaurant_data = get_data_to_list(data)
-print(len(restaurant_data))
-print(restaurant_data[1])
+#print(len(restaurant_data))
+#print(restaurant_data[0])
 
 
 
