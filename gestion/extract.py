@@ -6,8 +6,8 @@ import requests
 
 def get_data_to_list(data):
         restaurant_list = data.split("\n\n")
-        restaurant_data = restaurant_list[1:]
-        return restaurant_data
+        restaurant_list = restaurant_list[1:]
+        return restaurant_list
 
 
 def download_file(url, output_dir, output_filename):
@@ -31,21 +31,26 @@ def download_file(url, output_dir, output_filename):
 
 url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/1r_mM6ZPYNxcFv65QkzubA/California-Culinary-Map.txt"
 
+def load_restaurant_data(url=url, output_dir="../data/raw", output_filename="California-Culinary-Map.txt"):
+    output_path = download_file(url, output_dir, output_filename)
+    with open(output_path, "r", encoding="utf-8") as file:
+        data = file.read()
+    return get_data_to_list(data)
 
-output_path =  download_file(url, output_dir="../data/raw", output_filename="California-Culinary-Map.txt")
+#output_path =  download_file(url, output_dir="../data/raw", output_filename="California-Culinary-Map.txt")
 
 # Ahora sí: leer y parsear, como paso separado
-with open(output_path, "r", encoding="utf-8") as file:
+#with open(output_path, "r", encoding="utf-8") as file:
     data = file.read()
 
-restaurant_data = get_data_to_list(data)
-#print(len(restaurant_data))
-#print(restaurant_data[0])
+#restaurant_list = get_data_to_list(data)
+#print(len(restaurant_list))
+#print(restaurant_list[1])
 
 
 
 
-  # Comprobamos que el archivo se haya descargado y tenga datos
+
 
 
 
