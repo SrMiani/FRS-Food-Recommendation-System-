@@ -1,3 +1,5 @@
+import json
+
 from dotenv import load_dotenv
 import os
 from openai import OpenAI
@@ -97,6 +99,20 @@ for idx,restaurant_paragraph in enumerate(restaurant_list):
 
 print ("All restaurants processed. Total:", len(structured_data_list))
 print ("Restaurants with validation issues:", len(restaurants_wrong_validation))
+
+structured_data_list_json = [restaurant.model_dump() for restaurant in structured_data_list]
+
+
+for i, restaurant in enumerate(structured_data_list_json):
+    restaurant['id'] = 1000001 + i  # Assign a unique ID starting from 1
+   # structured_data_list_json[i] = restaurant  # Update the list with the new dictionary
+
+
+filename = "structured_restaurant_data.json"
+with open(filename, "w", encoding="utf-8") as f:
+    json.dump(structured_data_list_json, f, ensure_ascii=False, indent=4)
+
+
 
 
 
