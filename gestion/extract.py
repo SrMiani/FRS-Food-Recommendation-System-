@@ -1,7 +1,11 @@
 import json
 import os
+
 import zipfile
 import requests
+
+from llm_model import safe_llm_call, vision_model_call
+from prompt_builders import image_caption_prompt_builder
 
 
 #Text Extracting
@@ -49,17 +53,6 @@ urls = [
 ]
 
 
-#for url in urls:
-   # filename=url.split("/")[-1]
-   # response = requests.get(url)
-   # with open(filename, "wb") as f:
-   #     f.write(response.content)
-  #  print(f"Downloaded {filename} ")
-
-
-
-#with zipfile.ZipFile("synthetic-recipe-images.zip", 'r') as zip_ref:
-   # zip_ref.extractall()
 
 
 
@@ -72,15 +65,36 @@ for key,values in recipes_data[0].items():
 
 
 
-#output_path =  download_file(url, output_dir="../data/raw", output_filename="California-Culinary-Map.txt")
 
-# Ahora sí: leer y parsear, como paso separado
-#with open(output_path, "r", encoding="utf-8") as file:
-    #data = file.read()
+### Step 1.3: Show the image of the first recipe (recipe1)
+#url_image_recipe = f"synthetic_recipe_images/recipe{recipes_data[0]['id']}.png"
 
-#restaurant_list = get_data_to_list(data)
-#print(len(restaurant_list))
-#print(restaurant_list[1])
+#Image.open(url_image_recipe)
+
+
+
+#Generamos la lista aumentada de recetas con imágenes
+for i in range(len(recipes_data)):
+    recipe_name = recipes_data[i]['name']
+
+
+    image_caption_system_msg, image_caption_prompt = image_caption_prompt_builder(recipe_name)
+
+    image_path = f"synthetic_recipe_images/recipe{recipes_data[i]['id']}.png"
+
+    image_caption = safe_llm_call(vision_model_call, image_path, image_caption_prompt, image_caption_system_msg)
+
+    recipes_data[i]['image_description'] = image_caption
+
+print ("ALL DONE")
+
+
+
+filename = "Recipes_with_image_descriptions.json"
+with open(filename,"w",encoding="utf-8") as f:
+    json.dump(recipes_data,f,ensure_ascii=False,indent=4)
+
+
 
 
 

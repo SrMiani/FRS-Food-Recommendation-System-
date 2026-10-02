@@ -57,3 +57,21 @@ def JSON_auto_repair_prompt_builder(candidate_json_string,error_message):
     """
     return auto_repair_system_msg, auto_repair_prompt
 
+
+
+
+
+def image_caption_prompt_builder(food_name):
+    image_caption_system_msg = """
+    Eres un asistente que genera descripciones de imágenes de comida a partir del nombre del plato. 
+    La descripción debe ser concisa, atractiva y resaltar los ingredientes o características visuales del plato.
+    """
+    image_caption_prompt = f"""
+    Task: Genera una descripción de la imagen para el siguiente plato de comida.
+
+    Nombre del plato:
+    {food_name}
+
+    Devuelve únicamente la descripción de la imagen, sin explicaciones adicionales.
+    """
+    return image_caption_system_msg, image_caption_prompt
