@@ -75,3 +75,22 @@ def image_caption_prompt_builder(food_name):
     Devuelve únicamente la descripción de la imagen, sin explicaciones adicionales.
     """
     return image_caption_system_msg, image_caption_prompt
+
+
+
+def review_context_image_caption_prompt_builder(review_text):
+    review_context_image_caption_system_msg = """
+    Eres un asistente que genera descripciones de imágenes de comida a partir de reseñas de usuarios. 
+    La descripción debe ser concisa, atractiva y resaltar los ingredientes o características visuales del plato mencionadas en la reseña.
+    """
+    review_context_image_caption_prompt = f"""
+    Task: Genera una descripción de la imagen para un plato de comida basado en la siguiente reseña de usuario. Se específico y enfócate en los detalles visuales mencionados. Máximo 1-2 frases.
+
+    Reseña:
+    {review_text}
+
+    Devuelve únicamente la descripción de la imagen, sin explicaciones adicionales.
+    """
+    return review_context_image_caption_system_msg, review_context_image_caption_prompt
+
+
