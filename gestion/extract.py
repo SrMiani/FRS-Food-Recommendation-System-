@@ -162,10 +162,12 @@ for i in range(len(reviews_data)):
 print ("ALL DONE")
 
 
-
+#Generar el json mejorado de reviews con las captions de las imágenes
 filename = "augmented_Synthetic-User-Reviews_with_image_captions.json"
 with open(filename,"w",encoding="utf-8") as f:
      json.dump(reviews_data,f,ensure_ascii=False,indent=4)
+
+
 
 
 
