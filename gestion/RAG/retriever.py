@@ -80,6 +80,16 @@ def embed_images(paths, batch_size=16):
 
 print(" Image embedder preparado.")
 
+@torch.no_grad()
+def embed_query_clip_text(query: str):
+    inputs = clip_processor(text=[query], return_tensors="pt", padding=True).to(device)
+    feats = clip_model.get_text_features(**inputs)              # (1,512)
+    feats = feats / feats.norm(dim=-1, keepdim=True)            # cosine-ready
+    return feats[0].cpu().numpy().astype(np.float32)
+
+
+print(" CLIP embedder preparado.")
+
 
 # ================================
 # Retrieval utilities
@@ -92,6 +102,22 @@ def _unwrap(res: dict):
     metas = res.get("metadatas", [[]])[0]
     dists = res.get("distances", [[]])[0]
     return ids, docs, metas, dists
+
+def _to_similarity(dists):
+    """Convert 'smaller is better' distance to 'larger is better' similarity."""
+    d = np.array(dists, dtype=np.float32)
+    return 1.0 - d
+
+def _minmax(x):
+    """Min-max normalize to [0, 1] with safe handling for constant arrays."""
+    x = np.array(x, dtype=np.float32)
+    if x.size == 0:
+        return x
+    lo, hi = float(x.min()), float(x.max())
+    if abs(hi - lo) < 1e-8:
+        return np.ones_like(x)  # all equal -> treat as same confidence
+    return (x - lo) / (hi - lo)
+
 
 def print_hits(ids, docs, metas, dists, title: str, max_chars: int = 180):
     print(f"\n=== {title} ===")
@@ -128,7 +154,9 @@ def retrieve_articles(query: str, k: int = 5, where: dict | None = None):
         where=where,
         include=["documents", "metadatas", "distances"],
     )
-    return _unwrap(res)
+    ids, docs, metas, dists = _unwrap(res)
+    sims = _to_similarity(dists)
+    return ids, docs, metas, sims
 
 print("✅ Article retrieval ready")    
 
@@ -147,7 +175,9 @@ def retrieve_images_by_image(query_image_path: str, k: int = 5, where: dict | No
         where=where,
         include=["documents", "metadatas", "distances"],
     )
-    return _unwrap(res)
+    ids, docs, metas, dists = _unwrap(res)
+    sims = _to_similarity(dists)
+    return ids, docs, metas, sims
 
 print("✅ Image retrieval ready")
 
@@ -219,3 +249,34 @@ print_hits(ids, docs, metas, dists, title="Demo 3 — Image similarity search (i
 print("✅ Demo 3 complete")
 print("🎉 Similarity Retrieval with Metadata Filtering COMPLETE")
 
+
+
+# =====================================================
+# MULTIMODAL FUSION RETRIEVAL
+# =====================================================
+
+
+#Fuse rank
+
+def fuse_rank(
+    query:str,
+    k_text: int = 5,
+    k_img: int = 5,
+    w_text: float = 0.6,
+    w_img: float = 0.4,
+    where_text: dict | None=None,
+    where_img: dict | None=None,
+    top_n: int = 5
+):
+
+    #retrieve por modalidad
+    t_ids,t_docs,t_metas,t_sims = retrieve_articles(query, k=k_text, where=where_text)
+    i_ids,i_docs,i_metas,i_sims = retrieve_images_by_image(query, k=k_img, where=where_img)
+
+
+    #normalizar resultados
+    t_norm=_minmax(t_sims)
+    i_norm=_minmax(i_sims)
+
+
+    
