@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+from httpx2 import query
 from networkx import display
 import numpy as np
 import torch
@@ -164,10 +165,25 @@ print("✅ Article retrieval ready")
 # Image retrieval
 # ================================
 
-# Similarity retrieval over food images using an image query.
 def retrieve_images_by_image(query_image_path: str, k: int = 5, where: dict | None = None):
 
     q_vec = embed_images([query_image_path])[0]  # 512-d, cosine-ready
+
+    res = image_db._collection.query(
+        query_embeddings=[q_vec.tolist()],
+        n_results=k,
+        where=where,
+        include=["documents", "metadatas", "distances"],
+    )
+    return _unwrap(res)
+
+print("✅ Image retrieval ready")
+
+
+# Similarity retrieval over food images using an image query.
+def retrieve_images_by_text(query: str, k: int = 5, where: dict | None = None):
+
+    q_vec = embed_query_clip_text(query)  # 512-d  
 
     res = image_db._collection.query(
         query_embeddings=[q_vec.tolist()],
@@ -242,7 +258,7 @@ img.show()
 # 3. Display the retrieved results with metadata (use title="Demo 3 — Image similarity search (image→image)" when printing results)
 
 where_filter = {"cuisine": "Italian"}  # adjust if needed
-ids, docs, metas, dists = retrieve_images_by_image(query_img, k=5, where=where_filter)
+ids, docs, metas, dists = retrieve_images_by_text(query_img, k=5, where=where_filter)
 print_hits(ids, docs, metas, dists, title="Demo 3 — Image similarity search (image→image)" )
 
 
@@ -271,7 +287,7 @@ def fuse_rank(
 
     #retrieve por modalidad
     t_ids,t_docs,t_metas,t_sims = retrieve_articles(query, k=k_text, where=where_text)
-    i_ids,i_docs,i_metas,i_sims = retrieve_images_by_image(query, k=k_img, where=where_img)
+    i_ids,i_docs,i_metas,i_sims = retrieve_images_by_text(query, k=k_img, where=where_img)
 
 
     #normalizar resultados
@@ -279,4 +295,102 @@ def fuse_rank(
     i_norm=_minmax(i_sims)
 
 
+    #Construir lista con las puntuaciones mixtas de texto e imagen
+
+    rows=[]
+    for i in range(len(t_ids)):
+        rows.append({
+            "modality":"article",
+            "id":t_metas[i].get("doc_id",t_ids[i]) if isinstance(t_metas[i],dict) else t_ids[i],
+            "cuisine": t_metas[i].get("cuisine", "N/A") if isinstance(t_metas[i], dict) else "N/A",
+            "location": t_metas[i].get("location", "N/A") if isinstance(t_metas[i], dict) else "N/A",
+            "source": t_metas[i].get("source", "N/A") if isinstance(t_metas[i], dict) else "N/A",
+            "text_score": float(t_norm[i]),
+            "img_score": 0.0,
+            "fused": float(w_text * t_norm[i]),
+            "snippet": (t_docs[i] or "").replace("\n", " ").strip(),
+        })
+
+    for j in range(len(i_ids)):
+        rows.append({
+            "modality": "image",
+            "id": i_metas[j].get("doc_id", i_ids[j]) if isinstance(i_metas[j], dict) else i_ids[j],
+            "cuisine": i_metas[j].get("cuisine", "N/A") if isinstance(i_metas[j], dict) else "N/A",
+            "location": i_metas[j].get("location", "N/A") if isinstance(i_metas[j], dict) else "N/A",
+            "source": i_metas[j].get("source", "N/A") if isinstance(i_metas[j], dict) else "N/A",
+            "text_score": 0.0,
+            "img_score": float(i_norm[j]),
+            "fused": float(w_img * i_norm[j]),
+            "snippet": (i_docs[j] or "").replace("\n", " ").strip(),
+        })
+
     
+
+# Sort by fused score (desc rerank)
+    rows.sort(key=lambda r: r["fused"], reverse=True)
+    
+    # if top_n not specified, return full pool (k_text + k_img)
+    if top_n is None:
+        return rows
+
+    top_n = max(0, min(int(top_n), len(rows)))
+    return rows[:top_n]
+
+
+
+def print_fused(rows, title: str, max_chars: int = 90):
+    print(f"\n=== {title} ===")
+    for idx, r in enumerate(rows, start=1):
+        snippet = r["snippet"]
+        if len(snippet) > max_chars:
+            snippet = snippet[:max_chars].rstrip() + "..."
+        print(
+            f"[{idx}] {r['modality']} | id={r['id']} | cuisine={r['cuisine']} | "
+            f"location={r['location']} | fused={r['fused']:.4f} "
+            f"(text={r['text_score']:.4f}, img={r['img_score']:.4f})"
+        )
+        print(snippet)
+
+
+
+# ================================
+# Demo 3 — Weight tuning
+# ================================
+
+q = "fresh sushi and minimalist presentation"
+
+# TODO:
+# 1. Run fusion ranking with a text-heavy setting and print results (use title="Demo 3A — Text-heavy fusion (w_text=0.8, w_img=0.2)")
+# 2. Run fusion ranking with an image-heavy setting and print results (use title="Demo 3B — Image-heavy fusion (w_text=0.3, w_img=0.7)")
+# 3. Select 5 results from each modality, but only show the top 5 fused results
+
+rows = fuse_rank(
+    q,
+    k_text=5,
+    k_img=5,
+    w_text=0.8,
+    w_img=0.2,
+    where_text=None,
+    where_img=None,
+    top_n=5 
+)
+
+rows2 = fuse_rank(
+    q,
+    k_text=5,
+    k_img=5,
+    w_text=0.3,
+    w_img=0.7,
+    where_text=None,
+    where_img=None,
+    top_n=5 
+)
+
+print_fused(rows,title="Demo 3A- Text-heavy fusion (w_text=0.8,w_img=0.2)")
+print_fused(rows2,title="Demo 3B- Image-heavy fusion (w_text=0.3,w_img=0.7)")
+
+
+print("✅ Demo 3 complete")
+print("🎉 Multimodal Similarity Fusion and Retrieval Ranking COMPLETE")
+
+
