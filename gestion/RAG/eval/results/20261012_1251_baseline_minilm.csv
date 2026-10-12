@@ -1,0 +1,39 @@
+id,type,query,expected,top1,top1_sim,latency_ms,hit@1,hit@3,hit@5,hit@10,rr
+q01,direct,lavender roasted chicken in a greenhouse restaurant,restaurant_0,restaurant_107,0.4361,163.8,0,1,1,1,0.3333
+q02,direct,beer-battered snapper tacos and octopus ceviche near the pier,restaurant_1,restaurant_1,0.7037,10.9,1,1,1,1,1.0
+q03,direct,45-day dry-aged ribeye with bone marrow chimichurri,restaurant_2,restaurant_2,0.4663,8.9,1,1,1,1,1.0
+q04,direct,"buttery bluefin tuna belly in a zen, minimalist Japanese spot",restaurant_3,restaurant_3,0.5809,10.0,1,1,1,1,1.0
+q05,direct,cacio e pepe tossed in a giant parmesan wheel,restaurant_4,restaurant_4,0.433,9.6,1,1,1,1,1.0
+q06,direct,hummus topped with spiced wagyu beef,restaurant_5,restaurant_5,0.5347,10.1,1,1,1,1,1.0
+q07,direct,24-ingredient mole negro at a family Oaxacan eatery,restaurant_12,restaurant_12,0.5682,8.6,1,1,1,1,1.0
+q08,direct,numbing dan dan noodles and cumin lamb skewers under pink neon,restaurant_7,restaurant_7,0.5958,9.7,1,1,1,1,1.0
+q09,direct,jackfruit carnitas and organic craft beers by the beach,restaurant_18,restaurant_18,0.7474,8.0,1,1,1,1,1.0
+q10,direct,paper-thin dosas at a vegetarian South Indian restaurant,restaurant_38,restaurant_38,0.5853,8.2,1,1,1,1,1.0
+q11,vague,"quiet, bookish wine bar for long conversations",restaurant_55,restaurant_146,0.387,7.7,0,1,1,1,0.5
+q12,vague,dim restaurant with live jazz and spicy gumbo,restaurant_69,restaurant_69,0.6717,8.1,1,1,1,1,1.0
+q13,vague,cozy mountain-cabin feel with a fireplace and smoked brisket,restaurant_37,restaurant_37,0.5376,8.5,1,1,1,1,1.0
+q14,vague,rowdy neon bar to start a night of karaoke with Korean bar food,restaurant_36,restaurant_97,0.5983,10.4,0,1,1,1,0.5
+q15,vague,tea in a Victorian house surrounded by rose gardens,restaurant_112,restaurant_160,0.4175,7.7,0,1,1,1,0.3333
+q16,vague,plant-based fine dining inside a glowing glass cube,restaurant_90,restaurant_173,0.5713,8.4,0,1,1,1,0.3333
+q17,vague,retro 1950s diner with milkshakes,restaurant_39,restaurant_39,0.5537,8.4,1,1,1,1,1.0
+q18,vague,seafood dinner on a cliff watching the sunset,restaurant_72|restaurant_153|restaurant_183,restaurant_66,0.4971,7.7,0,1,1,1,0.5
+q19,spanish,tacos de pescado rebozados cerca del muelle en Santa Monica,restaurant_1,restaurant_1,0.6067,12.0,1,1,1,1,1.0
+q20,spanish,un sitio japonés tranquilo y minimalista con atún toro,restaurant_3,restaurant_174,0.3945,11.0,0,0,0,0,0.0
+q21,spanish,pizza al horno de leña con masa madre,restaurant_71|restaurant_197|restaurant_198,restaurant_174,0.4417,8.0,0,0,0,0,0.0
+q22,spanish,restaurante persa elegante con tahdig crujiente,restaurant_34|restaurant_102,restaurant_91,0.4435,8.1,0,0,0,0,0.0
+q23,filter,cheap seafood with a view of the water,restaurant_1|restaurant_31|restaurant_66|restaurant_94|restaurant_128|restaurant_140|restaurant_171|restaurant_183|restaurant_204,restaurant_128,0.512,18.1,1,1,1,1,1.0
+q24,filter,Persian kabobs,restaurant_22,restaurant_22,0.5534,7.9,1,1,1,1,1.0
+q25,filter,romantic candlelit Italian for a date,restaurant_20|restaurant_113,restaurant_63,0.4162,7.9,0,0,1,1,0.2
+q26,filter,top-rated omakase or kaiseki,restaurant_3|restaurant_17|restaurant_179,restaurant_3,0.4264,8.7,1,1,1,1,1.0
+q27,disambiguation,ramen bar with heavy metal music in Koreatown,restaurant_97,restaurant_97,0.6682,8.0,1,1,1,1,1.0
+q28,disambiguation,pan-fried pork gyoza with a crispy lace skirt,restaurant_114,restaurant_114,0.6789,8.2,1,1,1,1,1.0
+q29,no_answer,Ethiopian injera with doro wat,,restaurant_95,0.2259,8.5,,,,,
+q30,no_answer,kosher deli in New York,,restaurant_61,0.5125,7.3,,,,,
+q31,image,Margherita pizza with fresh basil,img_1,img_1,0.316,197.4,1,1,1,1,1.0
+q32,image,pad thai with peanuts and lime,img_8,img_8,0.2954,12.1,1,1,1,1,1.0
+q33,image,creamy orange chicken curry,img_2|img_44,img_98,0.2818,10.9,0,0,0,1,0.1667
+q34,image,paella with saffron and chorizo,img_21,img_21,0.3107,11.5,1,1,1,1,1.0
+q35,image,mango sticky rice dessert,img_30,img_73,0.2693,10.8,0,0,1,1,0.25
+q36,image,fried falafel balls with tahini sauce,img_9,img_9,0.3328,13.9,1,1,1,1,1.0
+q37,image,beef tacos with green salsa,img_10,img_87,0.3141,12.0,0,1,1,1,0.5
+q38,image,ensalada caprese con tomate y mozzarella,img_39,img_39,0.3223,14.3,1,1,1,1,1.0

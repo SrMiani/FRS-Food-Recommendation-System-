@@ -56,8 +56,13 @@ def hit_at_k(retrieved_ids: list[str], expected_ids: list[str], k: int) -> int:
         hit_at_k(retrieved, expected, 1) -> 0   (el primero es el 7)
         hit_at_k(retrieved, expected, 3) -> 1   (el 3 está entre los 3 primeros)
     """
-    # TODO: escribe aquí tu código
-    raise NotImplementedError("Escribe hit_at_k")
+    retrieved_top_k = retrieved_ids[:k]
+    for expected_id in expected_ids:
+        if expected_id in retrieved_top_k:
+            return 1
+    return 0
+
+    
 
 
 def reciprocal_rank(retrieved_ids: list[str], expected_ids: list[str]) -> float:
@@ -70,8 +75,13 @@ def reciprocal_rank(retrieved_ids: list[str], expected_ids: list[str]) -> float:
         expected  = ["restaurant_3"]
         reciprocal_rank(retrieved, expected) -> 0.5   (está en la posición 2 -> 1/2)
     """
-    # TODO: escribe aquí tu código
-    raise NotImplementedError("Escribe reciprocal_rank")
+    for position, doc_id in enumerate(retrieved_ids, start=1):
+        if doc_id in expected_ids:
+            return 1 / position
+    return 0.0
+
+
+    
 
 
 # =====================================================
