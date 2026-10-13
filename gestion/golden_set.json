@@ -1,0 +1,552 @@
+[
+  {
+    "id": "q01",
+    "query": "lavender roasted chicken in a greenhouse restaurant",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_0"
+    ],
+    "expected_names": [
+      "The Gilded Artichoke (Silver Lake)"
+    ]
+  },
+  {
+    "id": "q02",
+    "query": "beer-battered snapper tacos and octopus ceviche near the pier",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_1"
+    ],
+    "expected_names": [
+      "Mar de Cortez (Santa Monica)"
+    ]
+  },
+  {
+    "id": "q03",
+    "query": "45-day dry-aged ribeye with bone marrow chimichurri",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_2"
+    ],
+    "expected_names": [
+      "Iron & Embers (Arts District, DTLA)"
+    ]
+  },
+  {
+    "id": "q04",
+    "query": "buttery bluefin tuna belly in a zen, minimalist Japanese spot",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_3"
+    ],
+    "expected_names": [
+      "Sakura Garden (Little Tokyo)"
+    ]
+  },
+  {
+    "id": "q05",
+    "query": "cacio e pepe tossed in a giant parmesan wheel",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_4"
+    ],
+    "expected_names": [
+      "Pasta & Prose (West Hollywood)"
+    ]
+  },
+  {
+    "id": "q06",
+    "query": "hummus topped with spiced wagyu beef",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_5"
+    ],
+    "expected_names": [
+      "The Golden Hummus (Glendale)"
+    ]
+  },
+  {
+    "id": "q07",
+    "query": "24-ingredient mole negro at a family Oaxacan eatery",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_12"
+    ],
+    "expected_names": [
+      "Guerrero Kitchen (Boyle Heights)"
+    ]
+  },
+  {
+    "id": "q08",
+    "query": "numbing dan dan noodles and cumin lamb skewers under pink neon",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_7"
+    ],
+    "expected_names": [
+      "The Neon Noodle Bar (San Gabriel Valley)"
+    ]
+  },
+  {
+    "id": "q09",
+    "query": "jackfruit carnitas and organic craft beers by the beach",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_18"
+    ],
+    "expected_names": [
+      "The Green Leaf (Venice Beach)"
+    ]
+  },
+  {
+    "id": "q10",
+    "query": "paper-thin dosas at a vegetarian South Indian restaurant",
+    "collection": "articles",
+    "type": "direct",
+    "lang": "en",
+    "expected": [
+      "restaurant_38"
+    ],
+    "expected_names": [
+      "The Marigold Room (Little India (Artesia))"
+    ]
+  },
+  {
+    "id": "q11",
+    "query": "quiet, bookish wine bar for long conversations",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_55"
+    ],
+    "expected_names": [
+      "Grain & Grapes (Claremont)"
+    ]
+  },
+  {
+    "id": "q12",
+    "query": "dim restaurant with live jazz and spicy gumbo",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_69"
+    ],
+    "expected_names": [
+      "Blue Bayou (Long Beach)"
+    ]
+  },
+  {
+    "id": "q13",
+    "query": "cozy mountain-cabin feel with a fireplace and smoked brisket",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_37"
+    ],
+    "expected_names": [
+      "Willow & Ash (Eagle Rock)"
+    ]
+  },
+  {
+    "id": "q14",
+    "query": "rowdy neon bar to start a night of karaoke with Korean bar food",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_36"
+    ],
+    "expected_names": [
+      "The Brass Monkey (Koreatown)"
+    ]
+  },
+  {
+    "id": "q15",
+    "query": "tea in a Victorian house surrounded by rose gardens",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_112"
+    ],
+    "expected_names": [
+      "The Green Gable (Pasadena)"
+    ]
+  },
+  {
+    "id": "q16",
+    "query": "plant-based fine dining inside a glowing glass cube",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_90"
+    ],
+    "expected_names": [
+      "The Glass House (Culver City)"
+    ]
+  },
+  {
+    "id": "q17",
+    "query": "retro 1950s diner with milkshakes",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_39"
+    ],
+    "expected_names": [
+      "Pacific Peak (Burbank)"
+    ]
+  },
+  {
+    "id": "q18",
+    "query": "seafood dinner on a cliff watching the sunset",
+    "collection": "articles",
+    "type": "vague",
+    "lang": "en",
+    "expected": [
+      "restaurant_72",
+      "restaurant_153",
+      "restaurant_183"
+    ],
+    "expected_names": [
+      "Siren's Call (Malibu)",
+      "Sea & Stone (La Jolla)",
+      "Sea & Stone (La Jolla)"
+    ],
+    "note": "Sea & Stone (La Jolla) está duplicado y también es marisco en un acantilado"
+  },
+  {
+    "id": "q19",
+    "query": "tacos de pescado rebozados cerca del muelle en Santa Monica",
+    "collection": "articles",
+    "type": "spanish",
+    "lang": "es",
+    "expected": [
+      "restaurant_1"
+    ],
+    "expected_names": [
+      "Mar de Cortez (Santa Monica)"
+    ]
+  },
+  {
+    "id": "q20",
+    "query": "un sitio japonés tranquilo y minimalista con atún toro",
+    "collection": "articles",
+    "type": "spanish",
+    "lang": "es",
+    "expected": [
+      "restaurant_3"
+    ],
+    "expected_names": [
+      "Sakura Garden (Little Tokyo)"
+    ]
+  },
+  {
+    "id": "q21",
+    "query": "pizza al horno de leña con masa madre",
+    "collection": "articles",
+    "type": "spanish",
+    "lang": "es",
+    "expected": [
+      "restaurant_71",
+      "restaurant_197",
+      "restaurant_198"
+    ],
+    "expected_names": [
+      "The Rustic Crust (Altadena)",
+      "Mosaic Restaurant (Redding)",
+      "Workshop Kitchen + Bar (Palm Springs)"
+    ],
+    "note": "Tres sitios con pizza de leña; solo Rustic Crust menciona masa madre"
+  },
+  {
+    "id": "q22",
+    "query": "restaurante persa elegante con tahdig crujiente",
+    "collection": "articles",
+    "type": "spanish",
+    "lang": "es",
+    "expected": [
+      "restaurant_34",
+      "restaurant_102"
+    ],
+    "expected_names": [
+      "The Saffron Loom (Tehrangeles (Westwood))",
+      "The Golden Saffron (Tehrangeles (Westwood))"
+    ],
+    "note": "Dos restaurantes persas sirven tahdig"
+  },
+  {
+    "id": "q23",
+    "query": "cheap seafood with a view of the water",
+    "collection": "articles",
+    "type": "filter",
+    "lang": "en",
+    "expected": [
+      "restaurant_1",
+      "restaurant_31",
+      "restaurant_66",
+      "restaurant_94",
+      "restaurant_128",
+      "restaurant_140",
+      "restaurant_171",
+      "restaurant_183",
+      "restaurant_204"
+    ],
+    "expected_names": [
+      "Mar de Cortez (Santa Monica)",
+      "Maritime Provisions (San Pedro)",
+      "The Golden Hook (Redondo Beach)",
+      "The Harbor Light (San Pedro)",
+      "The Copper Anchor (Monterey)",
+      "The Foghorn (Half Moon Bay)",
+      "The Fog & Finch (Half Moon Bay)",
+      "Sea & Stone (La Jolla)",
+      "The Salty Pelican (Santa Monica)"
+    ],
+    "where": {
+      "price_range": {
+        "$lte": 1
+      }
+    },
+    "note": "Relevancia amplia: cualquier marisquería con price_range 1"
+  },
+  {
+    "id": "q24",
+    "query": "Persian kabobs",
+    "collection": "articles",
+    "type": "filter",
+    "lang": "en",
+    "expected": [
+      "restaurant_22"
+    ],
+    "expected_names": [
+      "The Silk Road (Glendale)"
+    ],
+    "where": {
+      "location": "Glendale"
+    }
+  },
+  {
+    "id": "q25",
+    "query": "romantic candlelit Italian for a date",
+    "collection": "articles",
+    "type": "filter",
+    "lang": "en",
+    "expected": [
+      "restaurant_20",
+      "restaurant_113"
+    ],
+    "expected_names": [
+      "The Rustic Olive (Sherman Oaks)",
+      "Ventura Velvet (Sherman Oaks)"
+    ],
+    "where": {
+      "price_range": {
+        "$lte": 2
+      }
+    },
+    "note": "Midnight in Milan (price 2, sultry) también sería aceptable"
+  },
+  {
+    "id": "q26",
+    "query": "top-rated omakase or kaiseki",
+    "collection": "articles",
+    "type": "filter",
+    "lang": "en",
+    "expected": [
+      "restaurant_3",
+      "restaurant_17",
+      "restaurant_179"
+    ],
+    "expected_names": [
+      "Sakura Garden (Little Tokyo)",
+      "The Obsidian Room (Downtown LA)",
+      "The Silent Pebble (Carmel-by-the-Sea)"
+    ],
+    "where": {
+      "rating": {
+        "$gte": 4.9
+      }
+    },
+    "note": "The Silent Pebble (sushi bar, 4.9) también cumple"
+  },
+  {
+    "id": "q27",
+    "query": "ramen bar with heavy metal music in Koreatown",
+    "collection": "articles",
+    "type": "disambiguation",
+    "lang": "en",
+    "expected": [
+      "restaurant_97"
+    ],
+    "expected_names": [
+      "The Neon Noodle (Koreatown)"
+    ],
+    "note": "Hay 4 restaurantes llamados The Neon Noodle"
+  },
+  {
+    "id": "q28",
+    "query": "pan-fried pork gyoza with a crispy lace skirt",
+    "collection": "articles",
+    "type": "disambiguation",
+    "lang": "en",
+    "expected": [
+      "restaurant_114"
+    ],
+    "expected_names": [
+      "The Golden Gyoza (Northridge)"
+    ],
+    "note": "Hay 2 The Golden Gyoza; solo el de Northridge tiene este plato"
+  },
+  {
+    "id": "q29",
+    "query": "Ethiopian injera with doro wat",
+    "collection": "articles",
+    "type": "no_answer",
+    "lang": "en",
+    "expected": [],
+    "expected_names": [],
+    "note": "No hay restaurante etíope: el sistema debería admitir que no hay match"
+  },
+  {
+    "id": "q30",
+    "query": "kosher deli in New York",
+    "collection": "articles",
+    "type": "no_answer",
+    "lang": "en",
+    "expected": [],
+    "expected_names": [],
+    "note": "Fuera de California y sin kosher"
+  },
+  {
+    "id": "q31",
+    "query": "Margherita pizza with fresh basil",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_1"
+    ],
+    "expected_names": [
+      "Classic Margherita Pizza"
+    ]
+  },
+  {
+    "id": "q32",
+    "query": "pad thai with peanuts and lime",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_8"
+    ],
+    "expected_names": [
+      "Pad Thai"
+    ]
+  },
+  {
+    "id": "q33",
+    "query": "creamy orange chicken curry",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_2",
+      "img_44"
+    ],
+    "expected_names": [
+      "Chicken Tikka Masala",
+      "Butter Chicken"
+    ],
+    "note": "Tikka masala y butter chicken se parecen mucho en foto"
+  },
+  {
+    "id": "q34",
+    "query": "paella with saffron and chorizo",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_21"
+    ],
+    "expected_names": [
+      "Spanish Paella Valenciana"
+    ]
+  },
+  {
+    "id": "q35",
+    "query": "mango sticky rice dessert",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_30"
+    ],
+    "expected_names": [
+      "Mango Sticky Rice"
+    ]
+  },
+  {
+    "id": "q36",
+    "query": "fried falafel balls with tahini sauce",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_9"
+    ],
+    "expected_names": [
+      "Chickpea Falafel with Tahini"
+    ]
+  },
+  {
+    "id": "q37",
+    "query": "beef tacos with green salsa",
+    "collection": "images",
+    "type": "image",
+    "lang": "en",
+    "expected": [
+      "img_10"
+    ],
+    "expected_names": [
+      "Beef Tacos with Salsa Verde"
+    ]
+  },
+  {
+    "id": "q38",
+    "query": "ensalada caprese con tomate y mozzarella",
+    "collection": "images",
+    "type": "image",
+    "lang": "es",
+    "expected": [
+      "img_39"
+    ],
+    "expected_names": [
+      "Caprese Salad"
+    ],
+    "note": "CLIP es casi solo inglés: se espera que falle más"
+  }
+]
