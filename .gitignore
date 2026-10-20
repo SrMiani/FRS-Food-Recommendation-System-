@@ -4,3 +4,5 @@ __pycache__/
 venv/
 .venv/
 gestion/synthetic-recipe-images.zip
+chroma_multimodal/
+eval/results/
