@@ -15,5 +15,18 @@ hit@5       0.89
 MRR         0.74
 latencia    18.7ms
 
+
+Estructura del Sistema
+
+Embedding de texto -  all-MiniLM-L6-V2 - Convierte cada restaurante en un vector
+Embedding de imagen - CLIP(512d) - Para buscar fotos de recetas escribiendo texto
+VectorDB - ChromaDB- Para buscar por similitud vectorial
+Agentes  - LangGraph - Para coordinar los agentes con un state compartido.
+LLM - OpenAI(gpt-5-mini) - Perfil, análisis y síntesis
+
+
 <img width="755" height="780" alt="image" src="https://github.com/user-attachments/assets/c4a59f9d-74d6-4f0b-adea-f394311dcdbe" />
+
+
+
 
