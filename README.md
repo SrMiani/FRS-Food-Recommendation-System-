@@ -30,6 +30,21 @@ Introduces los hábitos alimentarios de una persona (historial de restaurantes, 
 | Agentes | `LangGraph` | Para coordinar los agentes con un state compartido |
 | LLM | `OpenAI` (gpt-5-mini) | Perfil, análisis y síntesis |
 
+
+
 <p align="center">
   <img width="755" height="780" alt="image" src="https://github.com/user-attachments/assets/c4a59f9d-74d6-4f0b-adea-f394311dcdbe" />
 </p>
+
+
+---
+
+## 🚀 Pruébalo
+
+<p align="center">
+  <a href="URL_DE_LA_DEMO">
+    <img src="https://img.shields.io/badge/Probar%20la%20demo-Abrir-brightgreen?style=for-the-badge" alt="Probar la demo" />
+  </a>
+</p>
+
+> 🛠️ Demo en construcción: próximamente con interfaz web y despliegue en la nube.
