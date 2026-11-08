@@ -64,7 +64,7 @@ def call_agent(agent_key:str,user_message:str)->str:
     Your goal: {config['goal']}
     Your background: {config['backstory']}
 
-Respond with strcutured, actionable output.
+Respond with structured, actionable output in JSON.
 """
 
     response = client.chat.completions.create(
@@ -72,7 +72,8 @@ Respond with strcutured, actionable output.
         messages=[
             {"role":"system","content":system_prompt},
             {"role": "user","content":user_message}
-        ]
+        ],
+        response_format={"type":"json_object"},
     )
 
     return response.choices[0].message.content
