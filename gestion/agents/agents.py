@@ -65,6 +65,7 @@ def call_agent(agent_key:str,user_message:str)->str:
     Your background: {config['backstory']}
 
 Respond with structured, actionable output in JSON.
+Be concise: keep every text field to 1-2 short sentences and lists to max 5 items.
 """
 
     response = client.chat.completions.create(
@@ -74,6 +75,7 @@ Respond with structured, actionable output in JSON.
             {"role": "user","content":user_message}
         ],
         response_format={"type":"json_object"},
+        reasoning_effort="minimal",
     )
 
     return response.choices[0].message.content

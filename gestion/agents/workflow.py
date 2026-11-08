@@ -203,6 +203,11 @@ def node_generate_recommendations(state: dict) -> dict:
     restaurants = state["retrieved_restaurants"][:10]
     recipes = state["retrieved_recipes"][:10]
 
+    def slim(items):
+        return [{"id": c["doc_id"], "name": c.get("name"), "cuisine": c.get("cuisine"),
+                 "location": c.get("location"), "price_range": c.get("price_range"),
+                 "rating": c.get("rating"), "text": c.get("text", "")[:300]} for c in items]
+
     user_message = f"""Choose the top 5 restaurants and top 5 recipes for this user.
 
 STRICT RULES:
@@ -216,10 +221,10 @@ Styles: {json.dumps(state['style_analysis'], indent=2)}
 Nutrition: {json.dumps(state['nutrition_analysis'], indent=2)}
 
 CANDIDATE RESTAURANTS:
-{json.dumps(restaurants, indent=2)}
+{json.dumps(slim(restaurants))}
 
 CANDIDATE RECIPES:
-{json.dumps(recipes, indent=2)}
+{json.dumps(slim(recipes))}
 
 Return JSON:
 {{
