@@ -100,9 +100,7 @@ flowchart TB
 
 
 
-<p align="center">
-  <img width="755" height="780" alt="image" src="https://github.com/user-attachments/assets/c4a59f9d-74d6-4f0b-adea-f394311dcdbe" />
-</p>
+
 
 
 ---
