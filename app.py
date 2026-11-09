@@ -164,13 +164,13 @@ def recommend(text: str):
 
 # ---------- estilo Loading ----------
 CSS = """
-:root, .dark { --sky:#0a0a0f; --purple:#4a0080; --flash:#b366ff; --glow:rgba(120,0,180,.6);
-  --card:rgba(255,255,255,.04); --line:rgba(255,255,255,.10); --mut:rgba(255,255,255,.62); }
+:root, .dark { --sky:#050507; --purple:#4a0080; --flash:#b366ff; --glow:rgba(120,0,180,.6);
+  --card:rgba(255,255,255,.025); --line:rgba(255,255,255,.08); --mut:rgba(255,255,255,.62); }
 body, .gradio-container { background:var(--sky) !important; color:#fff !important;
   font-family:Inter, system-ui, sans-serif !important; }
 .gradio-container { max-width:1100px !important; margin:auto !important; }
 footer { display:none !important; }
-body { background:radial-gradient(900px 500px at 10% -10%, rgba(74,0,128,.55), transparent 70%), #0a0a0f !important; }
+body { background:radial-gradient(900px 500px at 10% -10%, rgba(74,0,128,.28), transparent 70%), #050507 !important; }
 .gradio-container { background:transparent !important; }
 .hero { padding:40px 0 18px; }
 .hero .top { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.16em; color:var(--mut);
@@ -205,7 +205,7 @@ body { background:radial-gradient(900px 500px at 10% -10%, rgba(74,0,128,.55), t
 .stats { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px }
 .stats span { font-family:'JetBrains Mono',monospace; font-size:12px; color:#fff; background:rgba(74,0,128,.35);
   border:1px solid var(--glow); border-radius:999px; padding:4px 10px }
-#go { background:linear-gradient(90deg,var(--purple),#7a1fd1) !important; border:none !important; color:#fff !important;
+#go { background:linear-gradient(90deg,#33005a,#5c14a3) !important; border:none !important; color:#fff !important;
   font-weight:700 !important; box-shadow:0 0 30px -8px var(--glow) !important }
 textarea { background:var(--card) !important; color:#fff !important; border:1px solid var(--line) !important; font-size:15px !important }
 .foot { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--mut); border-top:1px solid var(--line);
@@ -231,12 +231,12 @@ HERO = """
 FOOT = """
 <div class='foot'>
   <span>MiniLM + CLIP · ChromaDB · LangGraph · OpenAI · hit@5 0.89 · MRR 0.74</span>
-  <span><a href='https://loadingssg.com'>loadingssg.com</a> · <a href='https://github.com/SrMiani'>GitHub</a></span>
+  <span><a href='https://loadingssg.com'>loadingssg.com</a> · <a href='https://github.com/SrMiani/FRS-Food-Recommendation-System-'>GitHub</a></span>
 </div>"""
 
 theme = gr.themes.Base(primary_hue="purple", neutral_hue="zinc").set(
-    body_background_fill="#0a0a0f", body_background_fill_dark="#0a0a0f",
-    block_background_fill="#0a0a0f", block_background_fill_dark="#0a0a0f",
+    body_background_fill="#050507", body_background_fill_dark="#050507",
+    block_background_fill="#050507", block_background_fill_dark="#050507",
     block_border_width="0px", body_text_color="#ffffff", body_text_color_dark="#ffffff",
 )
 
@@ -248,7 +248,7 @@ with gr.Blocks(title="PlatePicker · Loading SSG", **({} if _G6 else _style)) as
     inp = gr.Textbox(lines=4, show_label=False, placeholder="Ej.: me encanta la comida picante, como mucho tacos... soy vegetariano")
     gr.Examples(EXAMPLES, inputs=inp, label="Prueba con un ejemplo")
     btn = gr.Button("Recomiéndame", elem_id="go", size="lg")
-    gr.HTML("<div class='tags' style='margin-top:6px'>Tarda unos 15–25 s: trabajan 5 agentes. Los datos son sintéticos (capstone de IBM). Mejor en inglés.</div>")
+    gr.HTML("<div class='tags' style='margin-top:6px'>Tarda unos 30 s: trabajan 5 agentes. Los datos son sintéticos (capstone de IBM). Mejor en inglés.</div>")
     out_profile = gr.HTML()
     out_rest = gr.HTML()
     out_reci = gr.HTML()
