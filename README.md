@@ -28,44 +28,8 @@ Introduces los hábitos alimentarios de una persona (historial de restaurantes, 
 
 ## 🗺️ Cómo funciona
 
-```mermaid
-flowchart TB
-    U(["👤 Usuario<br/>describe cómo come"]):::user
-    UI["🖥️ Interfaz Gradio + FastAPI<br/>Docker · Google Cloud Run"]:::ui
-    P["① Agente Perfil<br/>gustos · restricciones · hábitos"]:::agent
-    T["② Tool de búsqueda · RAG<br/>20 restaurantes + 20 recetas reales"]:::tool
-    A1["③ 📈 Tendencias"]:::agent
-    A2["③ 🎨 Estilos"]:::agent
-    A3["③ 🥗 Nutrición"]:::agent
-    S["④ Agente Síntesis<br/>elige top 5 + top 5 y copia el id"]:::agent
-    V{"⑤ Validación<br/>¿el id existe?"}:::check
-    R(["🍽️ 5 restaurantes + 5 recetas<br/>con su explicación"]):::user
+<img width="2168" height="2374" alt="arquitectura" src="https://github.com/user-attachments/assets/2ac6b07d-2097-4f2b-aeec-f02dfb151b8a" />
 
-    subgraph RAG["🔎 Retrieval multimodal"]
-        E1["MiniLM · texto → 384d"]:::emb --> DB1[("ChromaDB<br/>207 restaurantes")]:::db
-        E2["CLIP · texto → 512d"]:::emb --> DB2[("ChromaDB<br/>109 fotos de recetas")]:::db
-    end
-
-    LLM["🤖 OpenAI gpt-5-mini<br/>JSON mode"]:::llm
-
-    U --> UI --> P --> T
-    T <--> RAG
-    T --> A1 & A2 & A3
-    A1 & A2 & A3 --> S --> V
-    V -- "✅ sí" --> R
-    V -. "❌ no: se descarta" .-> S
-    P & S -.- LLM
-
-    classDef user fill:#4a0080,stroke:#b366ff,color:#fff
-    classDef ui fill:#1f1f2e,stroke:#b366ff,color:#fff
-    classDef agent fill:#2d1b4e,stroke:#b366ff,color:#fff
-    classDef tool fill:#123a5c,stroke:#4da3ff,color:#fff
-    classDef emb fill:#123a5c,stroke:#4da3ff,color:#fff
-    classDef db fill:#0e3b2e,stroke:#3ddc97,color:#fff
-    classDef check fill:#5c3b12,stroke:#ffb84d,color:#fff
-    classDef llm fill:#3b3b3b,stroke:#aaaaaa,color:#fff
-    style RAG fill:#0d1117,stroke:#4da3ff,color:#fff
-```
 
 ### 📚 Conceptos clave
 
